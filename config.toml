@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://linon419.github.io/"
 # [en, zh-cn, fr, ...] determines default content language
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
@@ -301,9 +301,9 @@ enableEmoji = true
         weight = 5
     [languages.zh-cn.params]
       # 网站描述
-      description = "关于 LoveIt 主题"
+      description = "探索世界的好奇心万岁"
       # 网站关键词
-      keywords = ["Theme", "Hugo"]
+      keywords = ["Yang", "Hugo"]
       # 网站默认主题 ("light", "dark", "auto")
       defaultTheme = "auto"
       # 主页信息设置
@@ -316,11 +316,11 @@ enableEmoji = true
           # 主页显示头像的 URL
           avatarURL = "/images/avatar.png"
           # 主页显示的网站副标题
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+          subtitle = "探索世界的好奇心万岁"
           # 是否为副标题显示打字机动画
           typeit = true
           # 是否显示社交账号
-          social = true
+          social = false
         # 主页文章列表
         [languages.zh-cn.params.home.posts]
           enable = true
@@ -433,13 +433,14 @@ enableEmoji = true
           shortname = ""
         # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
         [languages.zh-cn.params.comment.gitalk]
-          owner = ""
-          repo = ""
-          clientId = ""
-          clientSecret = ""
+        enable = true
+          owner = "Linon"
+          repo = "linon419.github.io"
+          clientId = "aaf5f9533adc0dca3acc"
+          clientSecret = "2f6dfba3b1c4bd93872985c401b4e7f4fce5651b"
         # Valine 评论系统设置 (https://github.com/xCss/Valine)
         [languages.zh-cn.params.comment.valine]
-          enable = true
+          enable = false
           appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
           appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
           placeholder = "你的评论 ..."
