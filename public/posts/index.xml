@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Yang&#39;s Blog</title>
+    <link>https://example.com/posts/</link>
+    <description>Recent content in Posts on Yang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 29 Feb 2020 15:09:36 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EnglishPod</title>
+      <link>https://example.com/englishpod/</link>
+      <pubDate>Sat, 29 Feb 2020 15:09:36 +0000</pubDate>
+      
+      <guid>https://example.com/englishpod/</guid>
+      <description>听力文本 Elementary ‐ Difficult Customer (B0001) A: Good evening. My name is Fabio, I’ll be your waiter for tonight. May I take your order? B: No, I’m still working on it. This menu is not even in English. What’s good here? A: For you sir, I would recommend spaghetti and meatballs. B: Does it come with coke</description>
+    </item>
+    
+    <item>
+      <title>算法和递归</title>
+      <link>https://example.com/suan-fa-he-di-gui/</link>
+      <pubDate>Wed, 26 Feb 2020 09:48:57 +0000</pubDate>
+      
+      <guid>https://example.com/suan-fa-he-di-gui/</guid>
+      <description>算法 冒泡排序（bubble） 冒泡排序(Bubble Sorting)的基本思想是:通过对待排序序列从前向后(从下标较小的元素开始),依次比较 相</description>
+    </item>
+    
+    <item>
+      <title>爬取豆瓣《功夫》短评，并清洗数据</title>
+      <link>https://example.com/pa-qu-dou-ban-lesslessgong-fu-greatergreater-duan-ping-bing-qing-xi-shu-ju/</link>
+      <pubDate>Wed, 05 Feb 2020 21:36:17 +0000</pubDate>
+      
+      <guid>https://example.com/pa-qu-dou-ban-lesslessgong-fu-greatergreater-duan-ping-bing-qing-xi-shu-ju/</guid>
+      <description>爬取豆瓣《功夫》短评，并清洗数据 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54</description>
+    </item>
+    
+    <item>
+      <title>马华灵：如何写作读书笔记：致一位学生的邮件</title>
+      <link>https://example.com/ma-hua-ling-ru-he-xie-zuo-du-shu-bi-ji-zhi-yi-wei-xue-sheng-de-you-jian/</link>
+      <pubDate>Sat, 01 Feb 2020 16:12:59 +0000</pubDate>
+      
+      <guid>https://example.com/ma-hua-ling-ru-he-xie-zuo-du-shu-bi-ji-zhi-yi-wei-xue-sheng-de-you-jian/</guid>
+      <description>作者：大清国的猫托邦（来自豆瓣） 来源：https://www.douban.com/note/645895227/ 按：前几日收到一位学生的《</description>
+    </item>
+    
+    <item>
+      <title>关于昨晚豆友给武汉捐款可看小视频事件的看法</title>
+      <link>https://example.com/guan-yu-zuo-wan-dou-you-gei-wu-han-juan-kuan-ke-kan-xiao-shi-pin-shi-jian-de-kan-fa/</link>
+      <pubDate>Wed, 29 Jan 2020 07:36:09 +0000</pubDate>
+      
+      <guid>https://example.com/guan-yu-zuo-wan-dou-you-gei-wu-han-juan-kuan-ke-kan-xiao-shi-pin-shi-jian-de-kan-fa/</guid>
+      <description>个人是非常支持这种行为的 即给灾区人民送去了温暖，又给寂寞男女提供了精神食量，这他妈才是真正的共产主义精神啊！</description>
+    </item>
+    
+    <item>
+      <title>《土拨鼠之日》观后感</title>
+      <link>https://example.com/lesslesstu-bo-shu-zhi-ri-greatergreater-guan-hou-gan/</link>
+      <pubDate>Wed, 29 Jan 2020 06:16:29 +0000</pubDate>
+      
+      <guid>https://example.com/lesslesstu-bo-shu-zhi-ri-greatergreater-guan-hou-gan/</guid>
+      <description>土拨鼠之日，时间循环电影的鼻祖 电影的故事跟简单，讲的是一名天气预报员（phil）来到一个小镇做一个关于这个小镇独特的节日&amp;mdash;土拨鼠</description>
+    </item>
+    
+    <item>
+      <title>Lambda</title>
+      <link>https://example.com/lambda/</link>
+      <pubDate>Tue, 21 Jan 2020 19:10:37 +0000</pubDate>
+      
+      <guid>https://example.com/lambda/</guid>
+      <description>Hello Lambda 普通方法 使用一个普通方法，在for循环遍历中进行条件判断筛选出满足条件的数据 hp&amp;gt;100 &amp;amp;&amp;amp; damage&amp;lt;50 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27</description>
+    </item>
+    
+    <item>
+      <title>线程</title>
+      <link>https://example.com/xian-cheng/</link>
+      <pubDate>Mon, 20 Jan 2020 23:11:22 +0000</pubDate>
+      
+      <guid>https://example.com/xian-cheng/</guid>
+      <description>基本概念 多线程是Java语言的重要特性，大量应用于网络编程、服务器端程序的开发，最常见的UI界面底层原理、操作系统底层原理都大量使用了多线程</description>
+    </item>
+    
+    <item>
+      <title>IO流</title>
+      <link>https://example.com/io-liu/</link>
+      <pubDate>Sun, 19 Jan 2020 23:13:41 +0000</pubDate>
+      
+      <guid>https://example.com/io-liu/</guid>
+      <description>基本概念和IO入门 对于任何程序设计语言而言，输入输出(Input/Output)系统都是非常核心的功能。程序运行需要数据，数据的获取往往需要</description>
+    </item>
+    
+    <item>
+      <title>容器</title>
+      <link>https://example.com/rong-qi/</link>
+      <pubDate>Sun, 19 Jan 2020 16:44:01 +0000</pubDate>
+      
+      <guid>https://example.com/rong-qi/</guid>
+      <description>容器，也叫集合(Collection)。 泛型 泛型是JDK1.5以后增加的，它可以帮助我们建立类型安全的集合。在使用了泛型的集合中，遍历时不必</description>
+    </item>
+    
+    <item>
+      <title>各种常用类</title>
+      <link>https://example.com/ge-chong-chang-yong-lei/</link>
+      <pubDate>Thu, 09 Jan 2020 17:35:18 +0000</pubDate>
+      
+      <guid>https://example.com/ge-chong-chang-yong-lei/</guid>
+      <description>包装类 包装类的基本知识 Java是面向对象的语言，但并不是“纯面向对象”的，因为我们经常用到的基本数据类型就不是对象。但是我们在实际应用中经常</description>
+    </item>
+    
+    <item>
+      <title>内部类</title>
+      <link>https://example.com/nei-bu-lei/</link>
+      <pubDate>Mon, 06 Jan 2020 20:13:41 +0000</pubDate>
+      
+      <guid>https://example.com/nei-bu-lei/</guid>
+      <description>如果一个事物包含另一个事物，那么这就是一个类内部包含另一个类 例如：人体和心脏，汽车和发动机 分类 成员内部类 局部内部类（包含匿名内部类） 成员内部</description>
+    </item>
+    
+    <item>
+      <title>多态</title>
+      <link>https://example.com/duo-tai/</link>
+      <pubDate>Sun, 05 Jan 2020 17:42:50 +0000</pubDate>
+      
+      <guid>https://example.com/duo-tai/</guid>
+      <description>继承或接口是多态的前提 格式 代码中体现多态性，其实就是一句话，父类引用指向子类对象 格式： 父类名称 对象名 = new 子类名称(); 接口名称 对象名 = new 实现</description>
+    </item>
+    
+    <item>
+      <title>接口</title>
+      <link>https://example.com/jie-kou/</link>
+      <pubDate>Sun, 05 Jan 2020 12:37:38 +0000</pubDate>
+      
+      <guid>https://example.com/jie-kou/</guid>
+      <description>接口是多个类的公共规范。 接口是一种引用类型，最重要的内容就是其中的抽象方法。 接口定义 接口是多个类的公共规范。 接口是一种引用类型，最重要的内容</description>
+    </item>
+    
+    <item>
+      <title>抽象方法，抽象类</title>
+      <link>https://example.com/chou-xiang-fang-fa/</link>
+      <pubDate>Sun, 05 Jan 2020 00:13:06 +0000</pubDate>
+      
+      <guid>https://example.com/chou-xiang-fang-fa/</guid>
+      <description>如果父类当中不确定如何进行{}方法体实现，那么这应该是一个抽象方法 概述 格式 抽象方法就是加上abstract 关键字，然后去掉大括号，直接；结束</description>
+    </item>
+    
+    <item>
+      <title>继承</title>
+      <link>https://example.com/ji-cheng/</link>
+      <pubDate>Sat, 04 Jan 2020 19:46:39 +0000</pubDate>
+      
+      <guid>https://example.com/ji-cheng/</guid>
+      <description>继承是多态的前提，没有继承就没有多态 概述 格式 在继承关系中，子类就是一个父类，关系：is-a 父类格式（普通类） 1 2 3 4 public class 父类名称{ //... } 子类格</description>
+    </item>
+    
+    <item>
+      <title>构造方法</title>
+      <link>https://example.com/gou-zao-fang-fa/</link>
+      <pubDate>Sat, 04 Jan 2020 13:30:06 +0000</pubDate>
+      
+      <guid>https://example.com/gou-zao-fang-fa/</guid>
+      <description>构造方法是专门用来创造对象的方法当通过new来创造对象时，就是在调用构造方法。 格式 1 2 3 public 类名称（参数类型 参数名称）{ 方法体 } 注意事项 构造方</description>
+    </item>
+    
+    <item>
+      <title>类和对象</title>
+      <link>https://example.com/lei-he-dui-xiang/</link>
+      <pubDate>Fri, 03 Jan 2020 19:34:07 +0000</pubDate>
+      
+      <guid>https://example.com/lei-he-dui-xiang/</guid>
+      <description>类：是一种相关行为和属性的集合，可以看成一类事物的模版，使用事物属性和行为描述该类 类和对象对比 类 类：是一种相关行为和属性的集合，可以看成一类</description>
+    </item>
+    
+    <item>
+      <title>局部变量和成员变量</title>
+      <link>https://example.com/ju-bu-bian-liang-he-cheng-yuan-bian-liang/</link>
+      <pubDate>Fri, 03 Jan 2020 19:32:19 +0000</pubDate>
+      
+      <guid>https://example.com/ju-bu-bian-liang-he-cheng-yuan-bian-liang/</guid>
+      <description>局部变量和成员变量的区别 局部变量和成员变量 定义的位置不一样 局部变量：在方法内部 成员变量：在方法外部，类内部 作用范围不一样 局部变量：只能在方法</description>
+    </item>
+    
+    <item>
+      <title>封装性</title>
+      <link>https://example.com/feng-zhuang-xing/</link>
+      <pubDate>Fri, 03 Jan 2020 19:27:36 +0000</pubDate>
+      
+      <guid>https://example.com/feng-zhuang-xing/</guid>
+      <description>封装性在Java中的体现 方法就是一种封装 private关键字也是一种封装 方法封装 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 //封装就是将一些细节隐藏起</description>
+    </item>
+    
+    <item>
+      <title>对抗恶人</title>
+      <link>https://example.com/dui-kang-e-ren/</link>
+      <pubDate>Fri, 03 Jan 2020 02:48:14 +0000</pubDate>
+      
+      <guid>https://example.com/dui-kang-e-ren/</guid>
+      <description>2020的第二天，在人们都是热情有礼貌高素质的澳大利亚，又遇到操蛋事了 在一个公交站，一个teenager跑过来跟我要2 dollars for bus。我说：“I</description>
+    </item>
+    
+    <item>
+      <title>Java Study Plan</title>
+      <link>https://example.com/java-study-plan/</link>
+      <pubDate>Wed, 01 Jan 2020 22:50:53 +0000</pubDate>
+      
+      <guid>https://example.com/java-study-plan/</guid>
+      <description>This is a simple java study plan</description>
+    </item>
+    
+    <item>
+      <title>正则表达式</title>
+      <link>https://example.com/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</link>
+      <pubDate>Fri, 22 Nov 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</guid>
+      <description>&lt;p&gt;简单来说，正则表达式就是记录本文规则的代码&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spider in Python</title>
+      <link>https://example.com/spider-in-python/</link>
+      <pubDate>Thu, 21 Nov 2019 06:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/spider-in-python/</guid>
+      <description>&lt;p&gt;There are some ways to use spider, for example, request, bs4&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git learning notes</title>
+      <link>https://example.com/git-notes/</link>
+      <pubDate>Wed, 20 Nov 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/git-notes/</guid>
+      <description>&lt;p&gt;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+&lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>https://example.com/inheritance/</link>
+      <pubDate>Wed, 20 Nov 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/inheritance/</guid>
+      <description>&lt;p&gt;When you inherit from an existing class, you reuse its method, and you can add new method and fields to adapt your new class to new situations.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
