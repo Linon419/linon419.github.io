@@ -235,7 +235,8 @@
       
       <guid>https://linon419.github.io/git-notes/</guid>
       <description>&lt;p&gt;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-&lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Git&lt;/a&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
