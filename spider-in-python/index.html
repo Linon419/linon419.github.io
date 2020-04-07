@@ -17,6 +17,9 @@
 <meta name="twitter:description" content="There are some ways to use spider, for example, request, bs4&hellip;"/>
 <meta name="theme-color" content="#ffffff">
 <meta name="msapplication-TileColor" content="#da532c">
+
+<script src= "/js/search.js" type="text/javascript"></script>
+ <link rel="stylesheet" href="/js/search.js">
 <link rel="canonical" href="https://yang419.com/spider-in-python/" />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -63,12 +66,12 @@
         <div class="header-title">
             <a href="/">Yang&#39;s Blog</a>
         </div>
-        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" rel="noopener noreffer">分类</a><a class="menu-item" href="/about/" rel="noopener noreffer">关于</a><span class="menu-item">|</span>
+        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" rel="noopener noreffer">分类</a><a class="menu-item" href="/about/" rel="noopener noreffer">关于</a><a href="#ex1" rel="modal:open"><i class="fas fa-search fa-fw"></i></a>
+            <span class="menu-item">|</span>
             <a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                 <i class="fas fa-adjust fa-fw"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/spider-in-python/" selected>简体中文</option></select>
-                </a></div>
+            </a>
+        </div>
     </div>
 </header><header class="mobile" id="header-mobile">
     <div class="header-wrapper">
@@ -80,7 +83,11 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" title="" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" title="" rel="noopener noreffer">分类</a><a class="menu-item" href="/about/" title="" rel="noopener noreffer">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">所有文章</a>
+                <a href="#ex1" rel="modal:open"><i class="fas fa-search fa-fw"></i></a><a class="menu-item" href="/tags/" title="" rel="noopener noreffer">标签</a>
+                <a href="#ex1" rel="modal:open"><i class="fas fa-search fa-fw"></i></a><a class="menu-item" href="/categories/" title="" rel="noopener noreffer">分类</a>
+                <a href="#ex1" rel="modal:open"><i class="fas fa-search fa-fw"></i></a><a class="menu-item" href="/about/" title="" rel="noopener noreffer">关于</a>
+                <a href="#ex1" rel="modal:open"><i class="fas fa-search fa-fw"></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                 <i class="fas fa-adjust fa-fw"></i>
             </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
                     <select class="language-select" onchange="location = this.value;"><option value="/spider-in-python/" selected>简体中文</option></select>
@@ -531,7 +538,7 @@ comment = result.xpath('//span[@class = &ldquo;short&rdquo;]/text()') . 读取�
                     title: 'Spider in Python',
                     clientID: 'aaf5f9533adc0dca3acc',
                     clientSecret: '2f6dfba3b1c4bd93872985c401b4e7f4fce5651b',
-                    repo: 'linon419.github.io',
+                    repo: 'linon419',
                     owner: 'Linon',
                     admin: ['Linon'],
                     body: decodeURI(location.href),
@@ -564,5 +571,8 @@ comment = result.xpath('//span[@class = &ldquo;short&rdquo;]/text()') . 读取�
                 thumbContHeight: 80,
             });
         });
-    </script><link rel="stylesheet" href="/lib/gitalk/gitalk.min.css"><link rel="stylesheet" href="/lib/iconfont/iconfont.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/gitalk/gitalk.min.js"></script><script src="/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/js/theme.min.js"></script></body>
+    </script><link rel="stylesheet" href="/lib/gitalk/gitalk.min.css"><link rel="stylesheet" href="/lib/iconfont/iconfont.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/gitalk/gitalk.min.js"></script><script src="/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/js/theme.min.js"></script><div id="ex1" class="modal">
+        
+    </div>
+    </body>
 </html>
