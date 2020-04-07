@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Yang&#39;s Blog | Yang&#39;s Blog</title>
-        <link>https://linon419.github.io/</link>
+        <link>https://yang419.com/</link>
         <description>Yang&#39;s Blog | Yang&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://linon419.github.io/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://yang419.com/" rel="self" type="application/rss+xml" /><item>
                 <title>Posts</title>
-                <link>https://linon419.github.io/posts/</link>
-                <pubDate>Sat, 29 Feb 2020 15:09:36 &#43;0000</pubDate><guid>https://linon419.github.io/posts/</guid>
+                <link>https://yang419.com/posts/</link>
+                <pubDate>Sat, 29 Feb 2020 15:09:36 &#43;0000</pubDate><guid>https://yang419.com/posts/</guid>
                 <description></description>
             </item><item>
                 <title>关于 LoveIt</title>
-                <link>https://linon419.github.io/about/</link>
-                <pubDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</pubDate><guid>https://linon419.github.io/about/</guid>
+                <link>https://yang419.com/about/</link>
+                <pubDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</pubDate><guid>https://yang419.com/about/</guid>
                 <description>&lt;p&gt;&lt;a href=&#34;https://github.com/dillonzq/LoveIt/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://linon419.github.io/svg/loading.small.min.svg&#34;
+        src=&#34;https://yang419.com/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -23,7 +23,7 @@
 
 &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://linon419.github.io/svg/loading.small.min.svg&#34;
+        src=&#34;https://yang419.com/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&amp;amp;logo=hugo,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -32,7 +32,7 @@
 
 &lt;a href=&#34;https://github.com/dillonzq/LoveIt/blob/master/LICENSE&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://linon419.github.io/svg/loading.small.min.svg&#34;
+        src=&#34;https://yang419.com/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -41,7 +41,7 @@
 
 &lt;a href=&#34;https://github.com/dillonzq/LoveIt&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://linon419.github.io/svg/loading.small.min.svg&#34;
+        src=&#34;https://yang419.com/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://img.shields.io/github/stars/dillonzq/LoveIt?style=social,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -50,7 +50,7 @@
 
 &lt;a href=&#34;https://github.com/dillonzq/LoveIt/fork&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://linon419.github.io/svg/loading.small.min.svg&#34;
+        src=&#34;https://yang419.com/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://img.shields.io/github/forks/dillonzq/LoveIt?style=social,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -64,13 +64,13 @@
 &lt;p&gt;它的原型基于 &lt;a href=&#34;https://github.com/liuzc/LeaveIt/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;LeaveIt 主题&lt;/a&gt;
  和 &lt;a href=&#34;https://github.com/liuzc/LeaveIt/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;KeepIt 主题&lt;/a&gt;
 。&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;https://linon419.github.io/images/Apple-Devices-Preview.png&#34; title=&#34;Hugo 主题 LoveIt&#34; data-thumbnail=&#34;/images/Apple-Devices-Preview.png&#34; data-sub-html=&#34;&lt;h2&gt;Hugo Theme LoveIt&lt;/h2&gt;&lt;p&gt;Hugo 主题 LoveIt&lt;/p&gt;&#34;&gt;
+&lt;p&gt;&lt;figure&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;https://yang419.com/images/Apple-Devices-Preview.png&#34; title=&#34;Hugo 主题 LoveIt&#34; data-thumbnail=&#34;/images/Apple-Devices-Preview.png&#34; data-sub-html=&#34;&lt;h2&gt;Hugo Theme LoveIt&lt;/h2&gt;&lt;p&gt;Hugo 主题 LoveIt&lt;/p&gt;&#34;&gt;
         &lt;img
             class=&#34;lazyload&#34;
-            src=&#34;https://linon419.github.io/svg/loading.min.svg&#34;
+            src=&#34;https://yang419.com/svg/loading.min.svg&#34;
             data-sizes=&#34;auto&#34;
-            data-srcset=&#34;https://linon419.github.io/images/Apple-Devices-Preview.png, https://linon419.github.io/images/Apple-Devices-Preview.png 1.5x, https://linon419.github.io/images/Apple-Devices-Preview.png 2x&#34;
-            data-src=&#34;https://linon419.github.io/images/Apple-Devices-Preview.png&#34;
+            data-srcset=&#34;https://yang419.com/images/Apple-Devices-Preview.png, https://yang419.com/images/Apple-Devices-Preview.png 1.5x, https://yang419.com/images/Apple-Devices-Preview.png 2x&#34;
+            data-src=&#34;https://yang419.com/images/Apple-Devices-Preview.png&#34;
             alt=&#34;Hugo Theme LoveIt&#34; /&gt;
     &lt;/a&gt;&lt;figcaption class=&#34;image-caption&#34;&gt;Hugo Theme LoveIt&lt;/figcaption&gt;
     &lt;/figure&gt;&lt;/p&gt;

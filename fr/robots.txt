@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://linon419.github.io/fr/sitemap.xml
+Sitemap: https://yang419.com/fr/sitemap.xml
