@@ -37,7 +37,7 @@
 2. 目标设备：程序数据的目的地，一般对应输出流。
 
 
-![](https://linon419.github.io/post-images/1579425239879.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579425239879.png)
 ## **流的概念**
 
 流是一个抽象、动态的概念，是一连串连续动态的数据集合。
@@ -46,7 +46,7 @@
 
    对于输出流而言，目标数据源就是目的地(dest)，我们通过流(A Stream)将程序(Program)中的数据(information)输送到目的数据源(dest)中。
 
-![](https://linon419.github.io/post-images/1579425259979.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579425259979.png)
 ## **第一个简单的IO流程序及深入理解**
 
 当程序需要读取数据源的数据时，就会通过IO流对象开启一个通向数据源的流，通过这个IO流对象的相关方法可以顺序读取数据源中的数据。
@@ -87,7 +87,7 @@ public class Demo01 {
 
    \2. 输出流：数据流向是程序到目的地(以OutPutStream、Writer结尾的流)。
 
-![](https://linon419.github.io/post-images/1579425286217.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579425286217.png)
 
 
 **按处理的数据单元分类：**
@@ -103,10 +103,10 @@ public class Demo01 {
    \2.  处理流：不直接连接到数据源或目的地，是”处理流的流”。通过对其他流的处理提高程序的性能，如BufferedInputStream、BufferedReader等。处理流也叫包装流。
 
    节点流处于IO操作的第一线，所有操作必须通过它们进行;处理流可以对节点流进行包装，提高性能或提高程序的灵活性。
-![](https://linon419.github.io/post-images/1579425313435.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579425313435.png)
 ## **Java中IO流类的体系**
 
-![](https://linon419.github.io/post-images/1579425335406.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579425335406.png)
 \1. InputStream/OutputStream
 
 ​    字节流的抽象类。

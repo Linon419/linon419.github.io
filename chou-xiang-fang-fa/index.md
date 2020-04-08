@@ -6,7 +6,7 @@
 
 ## 概述
 
-![](https://linon419.github.io/post-images/1578122009912.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1578122009912.png)
 
 ## 格式
 

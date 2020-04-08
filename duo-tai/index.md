@@ -6,7 +6,7 @@
 <!-- more -->
 
 
-![](https://linon419.github.io/post-images/1578195792304.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1578195792304.png)
 ## 格式
 
 代码中体现多态性，其实就是一句话，父类引用指向子类对象
@@ -135,19 +135,19 @@ public class Demo(){
 
 ## 多态的好处
 
-![](https://linon419.github.io/post-images/1578195814404.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1578195814404.png)
 
 
 
 ## 对象的向上转型
 
-![](https://linon419.github.io/post-images/1578195825233.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1578195825233.png)
 
 
 
 ## 对象的向下转型
 
-![](https://linon419.github.io/post-images/1578195833728.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1578195833728.png)
 
 ### Instanceof关键字使用
 

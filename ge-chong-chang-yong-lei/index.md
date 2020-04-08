@@ -12,7 +12,7 @@
 
    为了解决这个不足，Java在设计类时为每个基本数据类型设计了一个对应的类进行代表，这样八个和基本数据类型对应的类统称为包装类(Wrapper Class)。
 
-![](https://linon419.github.io/post-images/1578551748273.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1578551748273.png)
 
 ```java
 public class WrapperClassTest {
@@ -292,7 +292,7 @@ long now = System.currentTimeMillis();
 
 
 这个“时刻数值”是所有时间类的核心值，年月日都是根据这个“数值”计算出来的。我们工作学习涉及的时间相关类有如下这些：
-![](https://linon419.github.io/post-images/1578551813619.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1578551813619.png)
 
 ### 时间类
 

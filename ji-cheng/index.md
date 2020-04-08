@@ -8,7 +8,7 @@
 
 ## 概述
 
-![](https://linon419.github.io/post-images/1578116972540.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1578116972540.png)
 
 ## 格式
 
@@ -208,4 +208,4 @@ public class Teacher extends Employee{
 
 ## 继承的三个特点
 
-![](https://linon419.github.io/post-images/1578116853041.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1578116853041.png)

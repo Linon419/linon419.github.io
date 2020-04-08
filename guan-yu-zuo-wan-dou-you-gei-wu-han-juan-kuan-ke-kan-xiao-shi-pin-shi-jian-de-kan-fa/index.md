@@ -4,5 +4,5 @@
 
 <!-- more -->
 
-![](https://linon419.github.io/post-images/1580211508964.jpg)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1580211508964.jpg)
 即给灾区人民送去了温暖，又给寂寞男女提供了精神食量，这他妈才是真正的共产主义精神啊！

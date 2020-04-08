@@ -132,7 +132,7 @@ public class Demo02 implements Runnable {
 # 线程状态
 
 
-![](https://linon419.github.io/post-images/1579522358405.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579522358405.png)
 一个线程对象在它的生命周期内，需要经历5个状态。
 
 **▪ 新生状态(New)**
@@ -539,7 +539,7 @@ public class Demo05 {
 
 # **获取线程基本信息的方法**
 
-![](https://linon419.github.io/post-images/1579522394614.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579522394614.png)
 ```java
 public class TestThread {
     public static void main(String[] argc) throws Exception {

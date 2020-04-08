@@ -3,7 +3,7 @@
 容器，也叫集合(Collection)。
 
 
-![](https://linon419.github.io/post-images/1579391121859.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391121859.png)
 <!-- more -->
 
 # 泛型
@@ -62,7 +62,7 @@ public class Demo{
 ```
 
 通过阅读源码，我们发现Collection、List、Set、Map、Iterator接口都定义了泛型，如下图所示：
-![](https://linon419.github.io/post-images/1579391228648.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391228648.png)
 # Collection
 
 Collection 表示一组对象，它是集中、收集的意思。Collection接口的两个子接口是List、Set接口。
@@ -183,7 +183,7 @@ LinkedList底层用双向链表实现的存储。特点：查询效率低，增�
 
    双向链表也叫双链表，是链表的一种，它的每个数据节点中都有两个指针，分别指向前一个节点和后一个节点。 所以，从双向链表中的任意一个节点开始，都可以很方便地找到所有节点。
 
-![](https://linon419.github.io/post-images/1579391270038.png)![图9-8 LinkedList的存储结构图.png](/Volumes/Untitled 1/笔记/Java/img/LinkedList存储结构图.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391270038.png)![图9-8 LinkedList的存储结构图.png](/Volumes/Untitled 1/笔记/Java/img/LinkedList存储结构图.png)
 
  每个节点都应该有3部分内容：
 
@@ -197,7 +197,7 @@ class Node {
 
 我们查看LinkedList的源码，可以看到里面包含了双向链表的相关代码：
 
-![](https://linon419.github.io/post-images/1579391282165.png)![图9-9 LinkedList的底层源码.png](/Volumes/Untitled 1/笔记/Java/img/LinkedList的底层源码.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391282165.png)![图9-9 LinkedList的底层源码.png](/Volumes/Untitled 1/笔记/Java/img/LinkedList的底层源码.png)
 
 **注意事项**
 
@@ -207,7 +207,7 @@ class Node {
 
 Vector底层是用数组实现的List，相关的方法都加了同步检查，因此“线程安全,效率低”。 比如，indexOf方法就增加了synchronized同步标记。
 
-![](https://linon419.github.io/post-images/1579391294925.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391294925.png)
  ## 如何选用ArrayList、LinkedList、Vector?
 
 
@@ -224,7 +224,7 @@ Map就是用来存储“键(key)-值(value) 对”的。 Map类中存储的“�
 
    Map 接口的实现类有HashMap、TreeMap、HashTable、Properties等。
 
-![](https://linon419.github.io/post-images/1579391308034.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391308034.png)
 ## **HashMap和HashTable**
 
 HashMap采用哈希算法实现，是Map接口最常用的实现类。 由于底层采用了哈希表存储数据，我们要求键不能重复，如果发生重复，新的键值对会替换旧的键值对。 HashMap在查找、删除、修改方面都有非常高的效率。
@@ -295,16 +295,16 @@ public class TestMap {
 
    显然每一个Entry对象就是一个单向链表结构，我们使用图形表示一个Entry对象的典型示意：
 
-![](https://linon419.github.io/post-images/1579391497238.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391497238.png)
 然后，我们画出Entry[]数组的结构(这也是HashMap的结构)：
 
-![](https://linon419.github.io/post-images/1579391477859.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391477859.png)
 
 **▪ 存储数据过程put(key,value)**
 
    明白了HashMap的基本结构后，我们继续深入学习HashMap如何存储数据。此处的核心是如何产生hash值，该值用来对应数组的存储位置。
 
-![](https://linon419.github.io/post-images/1579391513823.png)![图9-16 HashMap存储数据过程示意图.png](/Volumes/Untitled 1/笔记/Java/img/HashMap存储数据结构图.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391513823.png)![图9-16 HashMap存储数据过程示意图.png](/Volumes/Untitled 1/笔记/Java/img/HashMap存储数据结构图.png)
 
 我们的目的是将”key-value两个对象”成对存放到HashMap的Entry[]数组中。参见以下步骤：
 
@@ -362,7 +362,7 @@ public class TestMap {
 
    二叉树(BinaryTree)由一个节点及两棵互不相交的、分别称作这个根的左子树和右子树的二叉树组成。下图中展现了五种不同基本形态的二叉树。
 
-![](https://linon419.github.io/post-images/1579391532411.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391532411.png)
    (a) 为空树。
 
    (b) 为仅有一个结点的二叉树。
@@ -401,7 +401,7 @@ public class TestMap {
 
    比如，我们存储排好序的数据【3,4,8,12,13,14,16,23】，增加节点如果出现不平衡，则通过节点的左旋或右旋，重新平衡树结构，最终平衡二叉树如下图所示：
 
-![](https://linon419.github.io/post-images/1579391558980.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391558980.png)
 平衡二叉树追求绝对平衡，实现起来比较麻烦，每次插入新节点需要做的旋转操作次数不能预知。
 
 **▪ 红黑二叉树**
@@ -424,7 +424,7 @@ public class TestMap {
 
    红黑树是一个更高效的检索二叉树，JDK 提供的集合类 TreeMap、TreeSet 本身就是一个红黑树的实现。
 
-![](https://linon419.github.io/post-images/1579391589220.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391589220.png)
 
 ## **TreeMap的使用和底层实现**
 
@@ -436,7 +436,7 @@ private transient Entry<K,V> root = null;
 
 root用来存储整个树的根节点。我们继续跟踪Entry(是TreeMap的内部类)的代码：
 
-![](https://linon419.github.io/post-images/1579391603878.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391603878.png)
 
 可以看到里面存储了本身数据、左节点、右节点、父节点、以及节点颜色。 TreeMap的put()/remove()方法大量使用了红黑树的理论。本书限于篇幅，不再展开。需要了解更深入的，可以参考专门的数据结构书籍。
 
@@ -479,7 +479,7 @@ public class TestHashMap {
 
 HashSet是采用哈希算法实现，底层实际是用HashMap实现的(HashSet本质就是一个简化版的HashMap)，因此，查询效率和增删效率都比较高。我们来看一下HashSet的源码：
 
-![](https://linon419.github.io/post-images/1579391625044.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1579391625044.png)
 
 我们发现里面有个map属性，这就是HashSet的核心秘密。我们再看add()方法，发现增加一个元素说白了就是在map中增加一个键值对，键对象就是这个元素，值对象是名为PRESENT的Object对象。说白了，就是“往set中加入元素，本质就是把这个元素作为key加入到了内部的map中”。
 

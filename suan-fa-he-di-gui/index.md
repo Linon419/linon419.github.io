@@ -13,7 +13,7 @@
  (2)每一趟排序的次数在逐渐的减少
  (3) 如果我们发现在某趟排序中，没有发生一次交换， 可以提前结束冒泡排序。这个就是优化
 
-![](https://linon419.github.io/post-images/1582671024250.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1582671024250.png)
 ```java
 package com.yang.sort.bubble;
 
@@ -68,7 +68,7 @@ public class BubbleTest {
 
 先找出最小值，然后与第一个交换
 
-![](https://linon419.github.io/post-images/1582671057143.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1582671057143.png)
 
 代码
 
@@ -148,7 +148,7 @@ public class SelectTest {
 
 插入排序(Insertion Sorting)的基本思想是:把 **n** 个待排序的元素看成为一个有序表和一个无序表，开始时有 序表中只包含一个元素，无序表中包含有 **n-1** 个元素，排序过程中每次从无序表中取出第一个元素，把它的排 序码依次与有序表元素的排序码进行比较，将它插入到有序表中的适当位置，使之成为新的有序表。
 
-![](https://linon419.github.io/post-images/1582671071018.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1582671071018.png)
 
 ```java
 package com.yang.sort.insert;
@@ -210,7 +210,7 @@ public class InsertTest {
 
 
 
-![](https://linon419.github.io/post-images/1582671087725.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1582671087725.png)
 
 
 
@@ -296,7 +296,7 @@ public class Shell {
 
 
 
-![](https://linon419.github.io/post-images/1582671102783.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1582671102783.png)
 ```java
 package com.yang.sort.quicksort;
 
@@ -349,7 +349,7 @@ public class QuickSort {
 
 原理：
 
-![](https://linon419.github.io/post-images/1582671114227.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1582671114227.png)
 
 
 ```java
@@ -425,7 +425,7 @@ public class MergeSort {
 原理：
 
 
-![](https://linon419.github.io/post-images/1582671148394.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1582671148394.png)
 
 ```java
 package radixsort;
@@ -498,7 +498,7 @@ public class RadixSort {
 
 可以让代码变得简洁。
 
-![](https://linon419.github.io/post-images/1582671164600.png)
+![](https://raw.githubusercontent.com/Linon419/Img/master/post-images/1582671164600.png)
 ## 递归要遵守的规则
 
 1.   执行一个方法时，就创建一个新的受保护的独立空间(栈空间)
