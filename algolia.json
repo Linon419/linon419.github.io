@@ -1,0 +1,482 @@
+[
+    {
+        "title": "关于 LoveIt",
+        "uri": "about.zh-cn",
+        "content": "LoveIt   far fa heart        Dillon              Hugo              LeaveIt      KeepIt            SEO   fas fa rocket          Google PageSpeed Insights    99 100          100 100           fab fa searchengin        JSON LD      SEO SCHEMA      SEO      fab fa google      Google Analytics   fas fa search                Google  Bind  Yandex Baidu    fas fa tachometer alt             CDN   fas fa cloud download alt      lazysizes                    fas fa desktop       fas fa mobile           fas fa moon       fas fa sun                fas fa layer group               fas fa ellipsis h          far fa list alt                  fas fa language               fab fa css3 alt       CSS              far fa user      Gravatar      fas fa user circle            far fa id card        59         fas fa share square        28         far fa comment      Disqus        far fa comment dots      Gitalk        far fa comment alt      Valine        far fa comments      Facebook             fas fa code            far fa images        lightgallery js         fab fa font awesome      Font Awesome       Markdown      far fa sticky note             Markdown      fas fa square root alt           KaTeX           fas fa project diagram        mermaid     shortcode   fas fa chart pie        ECharts           shortcode   fas fa music        APlayer   MetingJS        shortcode   fas fa tv      Bilibili    shortcode   far fa bell           shortcode   fas fa align left            shortcode   fas fa i cursor        TypeIt       shortcode   fas fa arrow down        Smooth Scroll                LoveIt    MIT                 LICENSE     LoveIt                     Font Awesome Fork Awesome Animate css lazysizes lightgallery js Smooth Scroll TypeIt    KaTeX   mermaid ECharts APlayer MetingJS Gitalk Valine",
+        "objectID": "about.zh-cn",
+        "date": "2019-08-02T03:04:49.000Z",
+        "draft": false,
+        "math": true,
+        "lightgallery": true
+    },
+    {
+        "title": "抽象方法，抽象类",
+        "uri": "posts/chou-xiang-fang-fa",
+        "content": "abstract                                          class    abstract public abstract class Animal  public abstract void eat    public void method                     new                                                abstract              public abstract class Animal  public abstract void eat    public void method            public class Cat extends Animal    public void eat    System out println  eat fish        public class DemoAbs  public static void main String   args   Cat cat   new Cat    cat eat          results  eat fish",
+        "objectID": "posts/chou-xiang-fang-fa",
+        "date": "2020-01-05T00:13:06.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "对抗恶人",
+        "uri": "posts/dui-kang-e-ren",
+        "content": "2020                                         teenager      2 dollars bus     I m sorry  donot have                    you don not fucking",
+        "objectID": "posts/dui-kang-e-ren",
+        "date": "2020-01-03T02:48:14.000Z",
+        "tags": [
+            "碎碎念"
+        ],
+        "published": true,
+        "hideInList": true,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "多态",
+        "uri": "posts/duo-tai",
+        "content": "new                    new          public class Fu  public void method    System out println  fufufu      public void methodFu    Systm out println  only fu        public class Zi extends Fu  public void method    System out println  zizizi        public class Demo    public static void main String   args   Fu obj   new Zi          obj method     zizizi obj methodFu     only fu                                                                    public class Fu  int num   10  public void method    System out println num       public class Zi  int num   20   override public void method    System out println num       public class Demo    public static void main String   args   Fu obj   new Zi          obj num     10 obj method     20               new                                public class Fu  int num   10  public void method    System out println          public void methodFu    System out println                public class Zi  int num   20   override public void method    System out println          public void methodZi    System out println              public class Demo    public static void main String   args   Fu obj   new Zi          obj num     10 obj method                    obj mehtodFu                      obj methodZi                                                Instanceof                                     Instanceof               public class Animal  public void eat    System out println  eat food        public class Cat extends Animal  public void eat    System out println  eat fish      public void catchMouse    System out println  catch        public class Dog extends Animal  public void eat    System out println  eat shit      public void watch    System out println  watch        public class Demo  public static void main String   args   Animal animal   new Cat     is cat aninal eat     eat fish giveMePet new Dog      public static void giveMePet Animal animal   if Animal instanceof Dog          Dog dog    Dog  animal        dog watch       Animal instanceof Cat   Cat cat    Cat  animal  cat catchMouse",
+        "objectID": "posts/duo-tai",
+        "date": "2020-01-05T17:42:50.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "EnglishPod",
+        "uri": "posts/englishpod",
+        "content": "Elementary   Difficult Customer  B0001  A  Good evening  name Fabio  I ll waiter tonight  May order  B  No  I m working it  menu not even English  What s good here  A  sir  recommend spaghetti meatballs  B  Does coke fries  A It comes either soup salad complimentary glass wine  Sir  B  I ll go spaghetti meatballs  salad wine  A  Excellent choice  order will ready soon  B  soon soon  A  Twenty minutes  B  know what  I ll just go grab burger across street  Elementary   Calling Sick  B0002  A  Hello  Daniel speaking  may help you  B  Hi  Daniel  Julie here  A  Hi  Julie  you  B  Actually  I m feeling quite ill today  A  I m sorry hear that  What s wrong  B  think I m coming down flu  headache  sore throat runny nose I m feeling slightly feverish  A  see    so you re calling sick  B  Yes  hoping day off recover  A  OK  then  Try rest  Elementary  Daily Life   Hotel Upgrade  C0003  A  Good afternoon  you  B  I d check please  reservation name Anthony Roberts  A  right R O B E R T S    Oh  Mr  Roberts we ve expecting you  keycard presidential suite  B  mistake  reservation standard room  A  sure  Let double check  B  Yeah Here  confirmation number  A  You re right Mr  Roberts  seems mixup  unfortunately we re overbooked moment   B  So  A  Not worry  We re pleased offer complimentary upgrade  B  Presidential suite baby  Elementary  The Office   need assistant   C0004  A     like told before  just don t resources hire assistant  B  understand that  fact we re understaffed  A  timing just not right  economy bad  it s risky new staff  B  Yeah  guess you re right     here s idea  hire intern  She weight off shoulders  A  She  B  Yeah  know  recent graduate  She give hand projects keep costs down  A  sounds reasonable    let do  A  Tony  I d introduce new assistant  B  OK  great  Let s meet her  C  Hi  I m Adam  B  Oh    hi    I m Tony    Elementary  Daily Life   Cut Line  C0005  A  can t believe took us two hours here  traffic New York unbelievable  B  Yeah  just relax honey  we re we re going vacation  few hours we ll Hawaii  you ll golf course  A  Oh no Look line  mile long  There s no I m waiting two hours  B  Honey    don t    C  Hey man  end line there  A  Yeah    C  No seriously  first  can t cut line this  A  Says who  C  do  A  So sue me  C  Alright   that s it     Elementary   Weekend   Road Trip  C00 06  A  So  ready go  B  Yup  think so  car s packed  munchies music  map s car  A  camera  B  it  fill tank  A  Yup  it s set  B  You re sure we re not forgetting anything  A  I m sure    we ve bases covered  B  Well  let s going then  love road trips  B  Um    think pit stop  A  we ve road ten minutes  B  know  forgot go bathroom left  Elementary   Office   Virus   C0007  A  Oh great  stupid computer froze again  Thats third time today  Hey Samuel  look PC  It s acting again  virus something  B  Just give second  I ll right up  B  ran virus scan computer  turns lot infected files  A  I m quite careful when I m browsing internet  no idea picked virus  B  Well  sure anti virus software updated regularly  yours wasn t date  that s probably causing problems  A  Ok  Anything else  B  Yeah  try not kick hit computer  A  Um yeah  Sorry that  Elementary   Daily Life   What s name again   C0008  A  Nick  How s going  B  Oh  hey    A  doing neighbourhood  live around here  B  Actually  office right around corner  A  great meet last week conference  really enjoyed conversation foreign investment  B  Yeah  yeah  really interesting  know  I m bit hurry  here s card  definitely meet again continue discussion  A  Sure  contact details  right  B  know what  really embarrassing  name just slipped mind  remind me  A  Sure  name Ana Ferris  Don t worry it  happens time  I m terrible names too  Elementary   Weekend   Silence please   C0009  A  people front us making so noise  It s so inconsiderate  B  Dont worry it  it s not big deal  A  Oh    cant hear thing  Excuse me  keep down  C  Sure  sorry  bout that  A  Someone s phone ringing  B  Honey  think it s phone  forget switch off  A  Oh  no  You re right  That s so embarrassing  C  mind keeping down  I m trying watch movie here  Elementary   Office   Driving Sales  C00 10  A  right  people  We re holding meeting today we ve something sales  need NOW  want concrete solutions  intend drive sales    Roger  B  Well  fact  we re expensive market  so maybe need lower prices match competitors  A  Lower prices  Not creative  It ll fly Swan  kind thinking that  Geez  Anybody else better plan  Natalie  C  Um  perhaps  um  sales promotion  Maybe two for one offer  something that  A  What  That s thing  Bad idea  Really bad idea  Dammit people on  Think  CEO will minute  D  ideas yet  C  Yes Mr  Swan  kind considering two for  one offer competitive  D  two for one promotion  Hmm  kind sound that  sounds something consider  A  Yeah  exactly  Just thinking  fact  that s brilliant idea  I m glad thought that  creative  Elementary   Daily Life   New Guy Town  C0 011  A  Oh  don t know heard  someone moved old house down road  B  Yeah  know  met owner house yesterday moving in  name Armand  A  Really  What s like ",
+        "objectID": "posts/englishpod",
+        "date": "2020-02-29T15:09:36.000Z",
+        "tags": [
+            "English"
+        ],
+        "categories": [
+            "英语爱好者"
+        ],
+        "published": true,
+        "toc": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "封装性",
+        "uri": "posts/feng-zhuang-xing",
+        "content": "Java              private                                      public class DemoMethod    public static void main String   args   int   array    0 30 9 40 100   int max   getMax array   System out println  The max number is  max     public static int getMax int   array   int max   array 0   for int   0  i0  num",
+        "objectID": "posts/feng-zhuang-xing",
+        "date": "2020-01-03T19:27:36.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "各种常用类",
+        "uri": "posts/ge-chong-chang-yong-lei",
+        "content": "Java                                                                                       Object                        Java                                                  Wrapper Class   public class WrapperClassTest   public static void main String   args    Integer   new Integer 10   Integer j   new Integer 50                                           Object                                                                                        public class Test        Integer          Integer     void testInteger               Integer   Integer int1   new Integer 10   Integer int2   Integer valueOf 20                  Integer     int int   int1 intValue             Integer   Integer int3   Integer parseInt  334    Integer int4   new Integer  999       Integer         String str1   int3 toString           int        System out println  int             Integer MAX_VALUE      2147483674   public static void main String   args    Test test   new Test    test testInteger                                                  JDK1 5  Java        autoboxing     unboxing                                         Integer    JDK1 5         Integer   5           Integer   new Integer 5                            JDK1 5   Java               Integer   5                          JVM      Integer   Integer valueOf 5          Java       Integer   100                              Integer   Integer valueOf 100        valueOf 100     new Integer 100                                       intValue   doubleValue           Integer   5 int j   i                                                 valueOf                         xxxValue        xxx             intValue   doubleValue      Integer   100  int j   i                              int j   i intValue             public class Test1   public static void main String   args    Integer   null  int j   i             public class Test1   public static void main String   args                                         Integer   null  int j   i intValue        null  i                                                    i                      intValue                    NullPointerException                char                    128 127                                     128 127                                 256          cache                       valueOf                                                      new                      Integer    public class Test3   public static void main String   args    Integer in1    128  Integer in2    128  System out println in1    in2    true   123       System out println in1 equals in2     true Integer in3   1234  Integer in4   1234  System out println in3    in4    false   1234        System out println in3 equals in4     true     String  String              5 11 4                1  String                String    concat    replace   substring    toLowerCase    toUpperCase   trim     2               endsWith    startsWith    indexOf   lastIndexOf     3             equals   equalsIgnoreCase   compareTo     4        charAt    length    StringBuffer  StringBuilder StringBuffer StringBuilder                          AbstractStringBuilder                      AbstractStringBuilder abstract class AbstractStringBuilder implements Appendable  CharSequence       value used character storage     char value                                       final             StringBuilder StringBuffer                       StringBuffer JDK1 0                           StringBuilder JDK1 5                                                public StringBuilder append            StringBuilder                       public StringBuilder delete int start int end         start   end 1                       public StringBuilder deleteCharAt int index                char              public StringBuilder insert            StringBuilder                            public StringBuilder reverse                            public String toString                       String           public int indexOf String str  public int indexOf String str int fromIndex  public String substring int start  public String substring int start int end  public int length   char charAt int index       public class TestStringBufferAndBuilder 1  public static void main String   args      StringBuilder  StringBuilder sb   new StringBuilder     int   0     toRadians double angdeg                                                                       8 26                   import java io File  public class TestFile6   public static void main String   args    File f   new File  d        printFile f  0                 param file       param level                      static void printFile File file  int level             int   0    level  i      System out print                 System out println file getName         file                             file isDirectory      File   files   file listFiles     File temp   files                  1 printFile temp  level   1",
+        "objectID": "posts/ge-chong-chang-yong-lei",
+        "date": "2020-01-09T17:35:18.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "Git learning notes",
+        "uri": "posts/Git notes",
+        "content": "Git free open source distributed version control system designed handle everything small large projects speed efficiency  Git Install Identity   git config   global user name  John Doe    git config   global user email johndoe example com check status git status Repositories Initializing Repository Existing Directory   git init Add files stage git add  means add files stage git add   xxx  add files one one Add files stage repositories git commit  m  xxx  add files repositories Connect local repositories internet repositories git remote add origin https   github com name name_cangku git push form local repositories internet repositories git push  u origin master Go back go future git log git log   pretty oneline view commit history git reset   hard       go version      1                        git checkout    file                                                2              git add                  git reset   hard        git checkout    file             3              git commit  master    2               Branch Create new branch merge when master branch  git push  u origin master every time  will add new time line  master will move new version Creat branch  move new branch git branch git checkout Check current Branch git branch commit git add   xxx  git commit  m  xxx  move master git checkout master merge branch git merge delete branch git branch  d Deal merge program             other  commit          master    master       git add   commit                  master     other                                git add git commit          git log   graph         git branch  d            Reference         Git",
+        "objectID": "posts/Git notes",
+        "date": "2019-11-20T03:00:00.000Z",
+        "tags": [
+            "Git"
+        ],
+        "published": true,
+        "toc": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "构造方法",
+        "uri": "posts/gou-zao-fang-fa",
+        "content": "new                     public                                                                 void      return                                                                                     public class Student  private String name  private int age  public Student    System out println                 public Student String name  int age   System out println               this name   name  this age   age      public class DemoStudent  Student stu1   new Student     new         Student stu2   new Student  Yang   19",
+        "objectID": "posts/gou-zao-fang-fa",
+        "date": "2020-01-04T13:30:06.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "关于昨晚豆友给武汉捐款可看小视频事件的看法",
+        "uri": "posts/guan-yu-zuo-wan-dou-you-gei-wu-han-juan-kuan-ke-kan-xiao-shi-pin-shi-jian-de-kan-fa",
+        "content": "",
+        "objectID": "posts/guan-yu-zuo-wan-dou-you-gei-wu-han-juan-kuan-ke-kan-xiao-shi-pin-shi-jian-de-kan-fa",
+        "date": "2020-01-29T07:36:09.000Z",
+        "tags": [
+            "碎碎念"
+        ],
+        "categories": [
+            "观点与感想"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": true,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "Inheritance",
+        "uri": "posts/Inheritance",
+        "content": "When inherit existing class  reuse its method  add new method fields adapt new class new situations    Classes  super class  child class Defining Subclass two ways fiels super class child class  Access directly  firstly use left     Access method  who s method  use who  otherwise find super class   super class     public class Employee   int salary   20  public void Employee    System out println salary          child class public class Manager extends Employee   private double bonus  int price   200  int salary   300  public void Manager    System out println salary       public class Main   public static void main String   args    Manager m   new Manager    System out println m price    200 System out println m salary    300 System out println                         System out println m salary   m Manager     300 m Employee     20     super refers current object  super keyword java reference variable used refer parent class objects super class public class Employee   int age   20    child class public class Manager extends Employee  int age   30  public void method    int age   40  System out println age    40 System out println this age    30 System out println super age    20     public class Main   public static void main String   args    Manager m   new Manager    m method        override object oriented programming language  Overriding feature allows subclass child class provide specific implementation method already provided one its super classes parent classes  override method name       public class Employee   int salary   10  int bonus   5  public int getSalary     return salary    public int getBonus     return bonus      public class Manager extends Employee  int bonus   3   Override public int getSalary    int salary   super getSalary    return salary   bonus      public class Main   public static void main String   args    Manager m   new Manager    int salary   m getSalary    System out println salary       result 13",
+        "objectID": "posts/Inheritance",
+        "date": "2019-11-20T03:00:00.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "IO流",
+        "uri": "posts/io-liu",
+        "content": "IO                     Input Output                                                               IO                                                             Input                                                                           word    doc                                                                                                                           Output                                                                             word                                                                                                                            java io          API                                          data source                                       IO     10 1                                                                                                                   stream                               A Stream      Source      information       Program                       dest        A Stream     Program      information          dest          IO                            IO                   IO                       public class Demo01   public static void main String   args  throws IOException   FileInputStream fis   null  try  fis   new FileInputStream   Users linon Desktop img a txt        123 StringBuilder sb   new StringBuilder    int temp   0    temp   fis read       1   sb append  char temp     System out println sb     catch  FileNotFoundException e    e printStackTrace      finally   try  if fis    null   fis close        catch  IOException e    e printStackTrace              123 Java                  1                   InputStream Reader        2                   OutPutStream Writer                    1                     Stream            FileInputStream FileOutputStream   2                     Reader Writer            FileReader FileWriter              1                        FileInputStream FileReader DataInputStream    2                                               BufferedInputStream BufferedReader                 IO                                                 Java IO       1  InputStream OutputStream             2  Reader Writer             3  FileInputStream FileOutputStream                        4  ByteArrayInputStream ByteArrayOutputStream                            5  ObjectInputStream ObjectOutputStream                        6  DataInputStream DataOutputStream                                  7  FileReader FileWriter                                       8  BufferedReader BufferedWriter        Reader Writer                       9  BufferedInputStream BufferedOutputStream        InputStream OutputStream                        10  InputStreamReader OutputStreamWriter                        11  PrintStream        OutputStream                                                                 IO    InputStream OutputStream Reader writer    IO                                                    InputStream                     InputSteam                                                          InputSteam                         8 bit         int read                     int     0 255                   1      1         void close                       OutputStream                                                    void write int n               void close                       Reader Reader                     int read                      int     0 65535        Unicode              1      1         void close                       Writer Writer                     void write int n                void close                             FileInputStream                                     Java    FileReader          FileOutputStream                          Java    FileWriter          import java io FileOutputStream  import java io IOException  public class TestFileOutputStream   public static void main String   args    FileOutputStream fos   null  String string                try      true             false            fos   new FileOutputStream  d  a txt   true                          write int n         fos write string getBytes       catch  Exception e    e printStackTrace      finally   try    fos    null    fos close        catch  IOException e    e printStackTrace                write   void write byte    b                                             void write byte    b  int off  int length                                                                 import java io FileInputStream  import java io FileOutputStream  import java io IOException  public class TestFileCopy   public static void main String   args       a txt     b txt copyFile  d  a txt    d  b txt           src        dec    param src      param dec         static void copyFile String src  String dec    FileInputStream fis   null  FileOutputStream fos   null                                       byte   buffer   new byte 1024   int temp   0  try   fis   new FileInputStream src   fos   new FileOutputStream dec            temp             temp   1          temp   fis read buffer       1                                          fos write buffer              1024            fos write buff",
+        "objectID": "posts/io-liu",
+        "date": "2020-01-19T23:13:41.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "Java Study Plan",
+        "uri": "posts/java-study-plan",
+        "content": "simple java study plan",
+        "objectID": "posts/java-study-plan",
+        "date": "2020-01-01T22:50:53.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "published": true,
+        "toc": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "继承",
+        "uri": "posts/ji-cheng",
+        "content": "is a           public class                    public class zilei extends fulei                                                                                                                  public class Empolyee  int age   20    public class Teacher extends Employee  int age   39    public class Demo  public class void main String   args   Thacher te   new Teacher              te age   39          public class Empolyee  int age   20  public void methodFu    System out println age       public class Teacher extends Employee  int age   39  public void methodZi    System out println age       public class Demo  public class void main String   args   Thacher te   new Teacher              te age   39 te methodZi     39 te methodFu     20     super      public class Empolyee  int age   20    public class Teacher extends Employee  int age   39  public void methodZi    int age   10 System out println age    10 System out println this age    39 System out println super age    20     super  3                                                          public class Empolyee  int age   20  public void method    System out println  Fu        public class Teacher extends Employee  int age   39  public Teacher    super      public void method    super age  super method      3                                                                  A     this                       B  super   this               public class Empolyee  int age   20    public class Teacher extends Employee  int age   39  public Zi    this 123                 public Zi int a     public void methodZi    int age   10 System out println age    10 System out println this age    39 System out println super age    20   public void methodA    this methodZi",
+        "objectID": "posts/ji-cheng",
+        "date": "2020-01-04T19:46:39.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "接口",
+        "uri": "posts/jie-kou",
+        "content": "public interface                   Java7                     Java8                     Java9                         Java                public abstract                                               public abstract              public abstract void methodsAbs    abstract void methodsAbs1    public void methodsAbs2    void methodsAbs3                                            public class       implements                                           abstract                            public interface MyInterfaceAbstract  public abstract void methodAbs            public class MyInterfaceimpl implements MyInterfaceAbstract   override public void methodAbs    System out println            public class Demo  public class void main String   args   MyInterfaceimpl impl   new MyInterfaceimpl    impl methodAbs          results                                                   java8                 public default                         public interface MyInterface  public abstract void methodAbs    public default void methodDefult    System out println  Let s dance        public class MyInterfaceimpl implements MyInterface   override public void methodAbs    System out println  111        public class Demo  public static void main String   args   MyInterfaceimpl impl   new MyInterfaceimpl    impl methodAbs    impl methodDefault          results  111    Let s dance      Java8             public static                           public interface MyInterfaceStatic  public static void methodStatic    System out println  static successed        public class MyInterfaceimpl implements MyInterfaceStatic   override public void methodAbs    System out println  111        public class Demo  public static void main String   args   MyInterfaceimpl impl   new MyInterfaceimpl    impl methodStatic      wrong MyInterfaceStatic methodStatic   right       results  111    Let s dance                                                                        Java 9                                       private                                                   private static                                  public interface MyInterface  public default void methodDefult1    System out println  Let s dance1    methodCommon      public default void methodDefult2    System out println  Let s dance2    methodCommon      private void method    System out println  Let s sex    System out println  Let s sex    System out println  Let s sex               public interface MyInterface  public static void methodStatic1    System out println  Let s dance1    methodCommon      public static void methodStatic2    System out println  Let s dance2    methodCommon      private static void method    System out println  Let s sex    System out println  Let s sex    System out println  Let s sex        public class Demo  public static void main String   args   impl methodStatic1      wrong MyInterfaceStatic methodStatic1   right       results  111    Let s dance                             private  static  final                              public static final                    final                                                   public interface MyInterfaceConst  public static final int NUM   2          public class Demo  public static void main String   args   impl methodStatic1      wrong System out println MyInterfaceConst NUM    right       result 2                                                            public class MyInterfaceImpl implements MyInterfaceA  MyInterfaceB                                                                                                                                                                   public interface MyInterface extends MyInterfaceA  MyInterfaceB",
+        "objectID": "posts/jie-kou",
+        "date": "2020-01-05T12:37:38.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "局部变量和成员变量",
+        "uri": "posts/ju-bu-bian-liang-he-cheng-yuan-bian-liang",
+        "content": "public class VirableDifferences    String name        public void methodA    int num   20        int age  System out println age               public void methodB int parma                System out println parma",
+        "objectID": "posts/ju-bu-bian-liang-he-cheng-yuan-bian-liang",
+        "date": "2020-01-03T19:32:19.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "Lambda",
+        "uri": "posts/lambda",
+        "content": "Hello Lambda                for                      hp 100    damage   public String name  public float hp  public int damage  public Hero     public Hero String name   this name   name    public Hero String name  float hp  int damage   this name   name  this hp   hp  this damage   damage     Override public int compareTo Hero anotherHero     damage heroes   new ArrayList     int   0  heroes    Hero hero  heroes    hero hp 100  hero damage100    h damage heros   new ArrayList     int   0  100    damange100    h damage heros HeroChecker checker     Hero hero   heros    if checker test hero   System out print hero         Lambda      lambda    filter heros  h   h hp 100    h damageh hp 100    h damage heros   new ArrayList     int   0  100    damangeh hp 100    h damage heros HeroChecker checker     Hero hero   heros    if checker test hero   System out print hero                Lambda            HeroChecker c1   new HeroChecker     public boolean test Hero h    return  h hp 100    h damage   HeroChecker c2    Hero h      return h hp 100    h damageh hp 100    h damageh hp 100    h damage h hp   100    h damage h hp   100    h damage 100    h damageh hp 100    h damage TestLambda testHero h           filter heros  TestLambda  testHero   import java util ArrayList  import java util List  import java util Random  import charactor Hero  public class TestLambda   public static void main String   args    Random r   new Random    List heros   new ArrayList     int   0  100    h damageh hp 100    h damage TestLambda testHero h     System out println              filter heros  TestLambda  testHero     public static boolean testHero Hero h    return h hp 100    h damage heros  HeroChecker checker     Hero hero   heros     checker test hero   System out print hero                                               TestLambda testLambda   new TestLambda    filter heros  testLambda  testHero   import java util ArrayList  import java util List  import java util Random  import charactor Hero  public class TestLambda   public static void main String   args    Random r   new Random    List heros   new ArrayList     int   0  100    h damage heros  HeroChecker checker     Hero hero   heros     checker test hero   System out print hero                                 java util function Supplier      get           public interface Supplier   T get                     public static List getList Supplier s   return s get                3            Supplier s   new Supplier     public List get     return new ArrayList         List list1   getList s       Lambda    List list2   getList     new ArrayList               List list3   getList ArrayList  new   import java util ArrayList  import java util List  import java util function Supplier  public class TestLambda   public static void main String   args    Supplier s   new Supplier     public List get     return new ArrayList               List list1   getList s     Lambda    List list2   getList     new ArrayList             List list3   getList ArrayList  new     public static List getList Supplier s   return s get                                          for                        Hero h   heros     h hp   100    h damage h hp   100    h damage System out println h name    import java util ArrayList  import java util List  import java util Random  import charactor Hero  public class TestAggregate   public static void main String   args    Random r   new Random    List heros   new ArrayList     int   0  100    damage 100    h damage h hp   100    h damage System out println h name        Stream       heros  stream    filter h    h hp   100    h damage System out println h name                 Stream       Stream  Collection          Stream                                                3                   List                    Stream    filter       Stream                                                                               Stream      int float String  Collection   forEach                                                   Stream I O   InputStream OutputStream              Collection            stream       heros stream          stream          Arrays stream hs     Stream of hs  import java util ArrayList  import java util Arrays  import java util HashMap  import java util List  import java util Random  import charactor Hero  public class TestAggregate   public static void main String   args    Random r   new Random    List heros   new ArrayList     int   0  System out println h name             Hero hs     heros toArray new Hero heros size      Arrays stream hs   forEach h  System out println h name                          Stream    filter       Stream                                                                   filter    distinct        equals    sorted      sorted Comparator       limit    skip              mapToDouble    double   map             Hero public class Hero implements Comparable  public String name  public float hp  public int damage  public Hero      public String getName     return name    public void setName String name    this name   name    public float getHp     re",
+        "objectID": "posts/lambda",
+        "date": "2020-01-21T19:10:37.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "类和对象",
+        "uri": "posts/lei-he-dui-xiang",
+        "content": "Java                                               public class Student  String name  int age  public void eat    System out println           public void sleep    System out println           public void sex    System out println                     import                       new        Student stu   new Student                                            public class DemoStudent  public static void main String   args   Student stu   new Student    stu age   18  stu sex",
+        "objectID": "posts/lei-he-dui-xiang",
+        "date": "2020-01-03T19:34:07.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "《土拨鼠之日》观后感",
+        "uri": "posts/lesslesstu-bo-shu-zhi-ri-greatergreater-guan-hou-gan",
+        "content": "phil                                                                         phil                  phil                                                                                          6                                        6                                                                   phil                                                                 Phil",
+        "objectID": "posts/lesslesstu-bo-shu-zhi-ri-greatergreater-guan-hou-gan",
+        "date": "2020-01-29T06:16:29.000Z",
+        "tags": [
+            "电影"
+        ],
+        "categories": [
+            "书影音"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": true,
+        "feature": "https://raw.githubusercontent.com/Linon419/Img/master/post-images/lesslesstu-bo-shu-zhi-ri-greatergreater-guan-hou-gan.jpg",
+        "isTop": false
+    },
+    {
+        "title": "马华灵：如何写作读书笔记：致一位学生的邮件",
+        "uri": "posts/ma-hua-ling-ru-he-xie-zuo-du-shu-bi-ji-zhi-yi-wei-xue-sheng-de-you-jian",
+        "content": "https   www douban com note 645895227                                                                                                                                                                                                            XX                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            word                                                                                                                                                                                                                                                                                                                                                                2013                                 1                                                    2                                            3                           1            2                                                   169 175                                                   171  1                              171   1            173                                             2                     174  2                                                              171                      175 180                        1                          1             2             2                                        legal association                       176  3                                                            176 177                 1          principle hindrance hindrance       177 178  2               178                   1                    179  2                          179  3                       180                       180 184  1                                                                           181  2      Ernest Barker s Principles Social Political Theory    182 183                      184 189  1                      184   1                                               2                       2                                                               187 188                   188 189                                                          188  Steven Lukes   Must Pluralists Relativists    Liberals Cannibals  Implications Diversity  London New York  Verso  2003   100 106                                       Steven Lukes   Must Pluralists Relativists       I  Arnaldo Momigliano s  On Pioneer Trail   pluralism will inevitably lead relativism II  Berlin s response  Alleged Relativism Eighteenth Century European Thought   i  Distinction pluralism relativism ii  Vico Herder not relativists                                      objective pluralism III  Lukes  View  i  Berlin outlines three differences pluralism relativism A  Pluralism holds value choices determined fundamental moral categories concepts part people s being  relativism holds whole outlooks determined forces people unaware B  Pluralism holds cultural differences bridgeable  relativism does not C  Pluralism holds values objective  relativism does not  ii  Berlin needs defend against relativism Two senses relativism  A  Relativism understanding  mutual understanding impossible   berlin Momigliano successfully reject B  Relativism practical judgment  no trans cultural criteria deciding evaluative questions   Berlin s pluralism needs protection against it",
+        "objectID": "posts/ma-hua-ling-ru-he-xie-zuo-du-shu-bi-ji-zhi-yi-wei-xue-sheng-de-you-jian",
+        "date": "2020-02-01T16:12:59.000Z",
+        "tags": [
+            "读书"
+        ],
+        "categories": [
+            "观点与感想"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": true
+    },
+    {
+        "title": "内部类",
+        "uri": "posts/nei-bu-lei",
+        "content": "class            class                                                public class Body       public class Heart       public void beat            System out println  bibibi    System out println  my name is  name       private String name                                          main                                   new         new       public class Body       public class Heart       public void beat            System out println  bibibi    System out println  my name is  name       public void methodBody    Heart heart   new Heart    heart beat         new Heart beat      private String name    public class Demo  Body bo   new Body                              Heart bo methodBody           Body Heart heart   new Body   new Heart                       this          public class Outer  int num   10  public class Inner  int num   20  public void method    int num   30  System out println num    30 System out println this num    20 System out println Outer this num                                                                                  class                                 class                    public class Outer  public void methodOuter    class Inner         int num   10  public void methodInner    System out println num       Inner inner   new Inner    inner methodInner      public class Demo  public static void main String   args   Outer obj   new Outer    obj methodOuter     10               public   protected    default    private     public default                                                                                            new                          public interface MyInterface  public void method    System out println              public class Demo  public static void main String   args   MyInterface obj   new MyInterface     override public void method    System out println                  obj method                     new                new                                                                                                                                                                                       public interface MyInterface  public void method    System out println              public class Demo  public static void main String   args   MyInterface obj   new MyInterface     override public void method    System out println                  obj method             new MyInterface           override public void method    System out println                 method",
+        "objectID": "posts/nei-bu-lei",
+        "date": "2020-01-06T20:13:41.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "爬取豆瓣《功夫》短评，并清洗数据",
+        "uri": "posts/pa-qu-dou-ban-lesslessgong-fu-greatergreater-duan-ping-bing-qing-xi-shu-ju",
+        "content": "import os import re import time import random lxml import etree import requests import jieba import numpy np PIL import Image import matplotlib pyplot plt wordcloud import WordCloud   Session       Cookie s   requests Session            COMMENTSFILEPATH    douban_comments txt       WCFONTPATH     Library Fonts Songti ttc  def login_douban              return        URL login_url    https   accounts douban com j mobile login basic      headers     user agent    Mozilla 5 0    Referer    https   accounts douban com passport login source main            data     name            password            remember    false   try  r   s post login_url  headers headers  data data  r raiseforstatus   except  print           return 0        print r text  return 1 def spider_comment page 0               param page        return      print        d     int page   start   int page   20  commenturl    https   movie douban com subject 1905462 comments start  d limit 20 sort newscore status P    start     headers     user agent    Mozilla 5 0   try  r   s get comment_url  headers headers  r raiseforstatus   except  print    d           page  return 0 result   etree HTML r text  comment   result xpath    span  class    short   text     not comments  return 0      open COMMENTSFILEPATH   a    encoding r encoding  file  file writelines   n  join comments   return 1 def batchspidercomment                  return                    os path exists COMMENTSFILEPATH   os remove COMMENTSFILEPATH  page   0 spider_comment page   page    1                   ip   time sleep random random     3  print         def cut_word               return             open COMMENTSFILEPATH  file  comment_txt   file read   wordlist   jieba cut commenttxt  cutall True  wl       join wordlist  print wl  return wl def createwordcloud              return               wcmask   np array Image open WCMASK_IMG           stop_words                                                                                                 wc   WordCloud backgroundcolor  white   maxwords 50  scale 4  maxfontsize 50  randomstate 42  stopwords stopwords  fontpath WCFONT_PATH       wc generate cut_word        mask                      plt imshow wc  interpolation  bilinear   plt axis  off   plt figure   plt show   name     main           login_douban      spider_comment 30  batchspidercomment   createwordcloud",
+        "objectID": "posts/pa-qu-dou-ban-lesslessgong-fu-greatergreater-duan-ping-bing-qing-xi-shu-ju",
+        "date": "2020-02-05T21:36:17.000Z",
+        "tags": [
+            "Spider"
+        ],
+        "categories": [
+            "Python"
+        ],
+        "published": true,
+        "toc": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "容器",
+        "uri": "posts/rong-qi",
+        "content": "Collection         JDK1 5                                                JDK                                                                                                                                                                  3                   E                                            class MyCollection     E     Object   obj   new Object 5   public E get int index   return E obj index     public void set E e  int index             public class Demo  public static void main String   args   MyCollection mc   new MyCollection    mc set  Hello  0   mc set   World  1   String str   mc 1   System out println str               List public class Demo  public static void main String   args   List ls   new ArrayList    Set mans   new HashSet                   Collection List Set Map Iterator                Collection Collection                   Collection         List Set      List Set Collection          List Set                     ArrayList             List     List               List                         List                          List                List       e1 equals e2               Collection       List                       List         3  ArrayList LinkedList Vector   list      public class TestList   public static void main String   args    List ls   new ArrayList    ls add  Yang    System out println ls isEmpty     ls add  Love    ls add  Yi jie    System out println ls   System out println                             System out println  list      ls size     System out println           ls contains  Yang             List        import java util ArrayList  import java util List  public class TestList02   public static void main String   args    List ls   new ArrayList    ls add  Yang    ls add  Li    ls add  China    List ls2   new ArrayList    ls2 add  Jenny    ls2 add  Pey    ls2 add  China    System out println ls containsAll ls2     list    list2      ls addAll ls2      list2         list  System out println ls   ls removeAll ls2     list      list list2       System out println ls   ls retainAll ls2     list list2    System out println ls       public class TestList   public static void main String   args    test03            List              public static void test03     List list   new ArrayList    list add  A    list add  B    list add  C    list add  D    System out println list       A  B  C  D  list add 2        System out println list       A  B     C  D  list remove 2   System out println list       A  B  C  D  list set 2   c    System out println list       A  B  c  D  System out println list get 1          B list add  B    System out println list       A  B  c  D  B  System out println list indexOf  B        1           B  System out println list lastIndexOf  B        4           B      ArrayList        ArrayList                                                      ArrayList    Object                        Object                      ArrayList                                                                      ArrayList Object        10                   11                                              LinkedList        LinkedList                                                                                                                               3      class Node   Node previous          Object element             Node next                LinkedList                             entry                                          Vector   Vector         List                               indexOf      synchronized          ArrayList LinkedList Vector           Vector                    ArrayList                              LinkedList  Map   Map         key    value       Map                              Map        HashMap TreeMap HashTable Properties   HashMap HashTable HashMap          Map                                                          HashMap                     Map        public class TestMap   public static void main String   args    Map m1   new HashMap    Map m2   new HashMap    m1 put 1   one    m1 put 2   two    m1 put 3   three    m2 put 1        m2 put 2        System out println m1 size     System out println m1 containsKey 1    System out println m2 containsValue  two     m1 put 3   third                     Map m3   new HashMap    m3 putAll m1   m3 putAll m2   System out println  m1     m1   System out println  m2     m2   System out println  m3     m3       HashTable  HashMap                   HashTable      synchronized                  HashMap HashTable     1  HashMap              key value null   2  HashTable              key value null  HashMap     HashMap                                               redis         HashMap                                                 1                                        2                                                                                                      Hashmap                             HashMap                   Entry   table   HashMap                           Entry             Entry        1  key     value      2  next        3  hash      hash       Entry                       Entry      ",
+        "objectID": "posts/rong-qi",
+        "date": "2020-01-19T16:44:01.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "Spider in Python",
+        "uri": "posts/Spider in Python",
+        "content": "ways use spider  example  request  bs4    Request 7 Main functions requests requests request   generate request  basic function requests get   html requests head   head html requests post   Post request website requests put   Put requests requests patch   Modify website requests delete   delete website requests request method  url    kwargs  method means get  head  post     kwargs                params             url kv     key1    value1    key2   value2   r   requests request  GET    http   python123 io ws   params kv  print r url  result https   python123 io ws key1 value1 key2 value2 data                 Request    kv     key1    value1    key2   value2   r   requests request  GET    http   python123 io ws   data kv  print r url  JSON  JSON          request    heasers      http    hd     user agent   Chrome 10   r   requests request  POST   http   python123 io ws   headers   hd  files  dict  transfer file fs     file  open  data xls   rb    r   requests request  POST    http   python123 io ws   files   fs  timeout  set time when website  doesnot response set time  will exception proxies  dict  set proxy vps allow_redirects  True False      stream  true false           Practice JD url    https   item jd com 43223278294 html  try  r   requests get url  r raiseforstatus     if code   200 its ok  Otherwise  exception r encoding   r apparent_encoding print r text  1000   except  print Exception   Baidu post url    http   www baidu com  kv     wd         try  r   request post url params   kv  r raiseforstatus r encoding   r apparent_encoding print r text  1000   except  print  Exception   Beautisul soup basic code bs4 import BeautifulSoup soup   BeautiuflSoup  data    html parser   Beautiful Soup      bs4 Html  BeautifulSoup data html parser  lxml Html  BeautifulSoup data  lxml   pip3 install lxml lxml Xml  BeautifulSoup data  xml   pip3 install lxml html5lib  BeautifulSoup data  html5lib   pip3 install html5lib      Tag  xxx Name  name tag  name      p   format   name Attributes   attrs NavigableString     string  format   string Comment  special comment          content                      eg soup body content  children            content               descendants                 parent           parents                 next_sibing               previous_sibing               next_sibings              previous_sibings             Find information  find_all name attrs recursive string   kwargs                       name   a           soup find_all  a   b   attrs       recursive            string  search string        import requests bs4 import BeautifulSoup import bs4 def getHtml url   r   requests get url timeout   30  r raiseforstatus   r encoding   r apparent_encoding return r text def fillList list  html   soup   BeautifulSoup html   html parser   tr soup find  tbody   children  isinstance tr  bs4 element Tag   tds   tr  td   list append  tds 0  string  tds 1  string  tds 4  string   def printList list num   print     10  t   6  t   10   format                  range num   u   list i  print     10  t  10   format u 0  u 1  u 2    def main    list      url    http   www zuihaodaxue com ARWU2019 html  html   getHtml url  fillList list html  printList list 100  main   Re      re search                           match   re search pattern string flags   0  pattern                    string        flags                re I            re M                           re S                    re match                        match       string         re      pattern   pos               endpos                   group 0             start                     end                     span       start   end    re findall                        re split                               re finditer                           match   re sub                                           match   re search r PY  N    PYANBNCNDN   match group 0  result PYANBNCNDN         r PY   N  Scrapy Scrapy      startproject dir         genspider options          settings options          crawel run spider list list spider project shell  url      yield       def gen num   range num   yield i  2 gen 6   print i    end       0 1 4 9 16 25 xpath xpath     xml                node                               parent  children sibling ancestor descentant                 nodename                                                                                          comment   result xpath    span  class    short   text",
+        "objectID": "posts/Spider in Python",
+        "date": "2019-11-21T06:00:00.000Z",
+        "tags": [
+            "Spider"
+        ],
+        "categories": [
+            "Python"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "算法和递归",
+        "uri": "posts/suan-fa-he-di-gui",
+        "content": "bubble       Bubble Sorting                                                                                                   1             1         2                 3                                           package com yang sort bubble  import java util Arrays  public class BubbleTest   public static void main String   args    int arr      3  9   1  10   2   BubbleSort arr   System out println Arrays toString arr              public static void BubbleSort int arr     int temp  boolean flag   false          i j   0 1                   arr i  arr j                    i arr length 1         int k   0  k arr j     flag   true  temp   arr j   arr j    arr i   arr i    temp      if flag  false      flag false                   break    else flag   false             select       select sorting                          arr 0  arr n 1           arr 0         arr 1  arr n 1          arr 1         arr 2  arr n 1          arr 2              arr i 1  arr n 1          arr i 1           n 1    arr n 2  arr n 1           arr n 2         n 1                                           package com yang sort select  import java util Arrays  public class SelectTest   public static void main String   args    int arr      3  9   1  10   2       a 0        a 0   a 1  a arr length 1        a 0  a j      int k   0  k arr i                     min   arr i   minIndex   i                arr 0   minIndex  k   arr minIndex    arr k   arr k    min      System out println Arrays toString arr         int minIndex  0     int min   arr 0                             int   0 1  arr i                        min   arr i      minIndex   i                         arr 0      minIndex  0      arr minIndex    arr 0      arr 0    min          System out println Arrays toString arr                            a 1           a 1         minIndex   1     min   arr 1       int   0 2   0  insertVal 0  insertVal 0  gap gap 2              int   gap   0   j  gap                         arr j  arr j gap    temp   arr j   arr j    arr j gap   arr j gap    temp                         10     5    2                    a i  a i 5        int temp   0      int   5    0  j j 5        arr j  arr j 5       temp   arr j      arr j    arr j 5      arr j 5    temp                    System out println          Arrays toString arr                     5 2   2      int   2   0  j  2        arr j  arr j 2       temp   arr j      arr j    arr j 2      arr j 2    temp                              1      int   1   0  j  1        arr j  arr j 2       temp   arr j      arr j    arr j 2      arr j 2    temp                          Quicksort       Quicksort                                                                                                                         package com yang sort quicksort  import java util Arrays  public class QuickSort   public static void main String   args    int   arr     9 78 0 23  567 70   1 900  4561   quickSort arr 0 arr length 1   System out println Arrays toString arr      public static void quickSort int   arr  int low  int high    lowx   j                arr i    arr j           x     i",
+        "objectID": "posts/suan-fa-he-di-gui",
+        "date": "2020-02-26T09:48:57.000Z",
+        "tags": [
+            "算法"
+        ],
+        "categories": [
+            "算法与数据结构"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "线程",
+        "uri": "posts/xian-cheng",
+        "content": "Java                                UI                                                              UI                                                                                                                                                                                               Program                                                                                                           Process                                                eclipse                             1                              2       3     cpu data code                cpu                                     3                cpu        3      Multitasking      CPU                                                    CPU       4          Windows    Ctrl Alt Del                    Unix    ps top                                                                                      lightweight process    1                                    2               concurrent      3                                                                         4                                                            5                                  1                                          2                                                     PC             3                                         4                             5                            6                               7                                                                       8                                                                           CPU              CPU                                                                                                                                                                                                  Java          Java                                                Thread         Thread            1   Java            java lang Thread     2         Thread             3               Thread        run             run           4      Thread  start                                              Applet           Thread    public class TestThread extends Thread          Thread    run          public void run      int   0    10  i      System out println this getName           i    getName                public static void main String   args    TestThread thread1   new TestThread            thread1 start          TestThread thread2   new TestThread    thread2 start          Runnable                       Runnable               11 2 1               Runnable                  Runnable            public class Demo02 implements Runnable    Override public void run      int   0    10  i      System out println Thread currentThread   getName       i       public static void main String   args    Thread th1   new Thread new Demo02     th1 start    Thread th2   new Thread new Demo02                                 5            New   new                                                start                 Runnable                              CPU                    CPU                         Thread                  CPU                  run    4                       start                                      yield                    JVM CPU                      Running              run                                                                                                     Blocked                                   4           1    sleep int millsecond                                        2    wait                    nofity                      3                       IO    read   write                                           4  join                                    join             Terminated                                               run                             stop   destroy              stop   destroy       JDK                                                           JDK   stop   destroy           JDK               boolean              false           public class TestThreadCiycle implements Runnable   String name  boolean live   true                    public TestThreadCiycle String name    super    this name   name    public void run     int   0     live   true        false                live    System out println name    i          public void terminate     live   false    public static void main String   args    TestThreadCiycle ttc   new TestThreadCiycle    A     Thread t1   new Thread ttc          t1 start            int   0    100  i      System out println         i     ttc terminate    System out println  ttc stop         no 10    0    1 no 11 no 12 no 13    2    3    4    5    6    7    8 no 14    9    10    11 no 15    12    13    14 no 16    15 no 17    16 no 18    17 no 19    18 no 110    19 no 111    20 no 112    21 no 113    22 no 114    23 no 115    24 no 116    25 no 117    26 no 118    27 no 119    28 no 120 no 121    29 no 122 no 123 no 124 no 125 no 126 no 127    30 no 128    31    32 no 129    33 no 130 no 131 no 132 no 133 no 134 no 135 no 136 no 137 no 138 no 139 no 140 no 141 no 142 no 143 no 144 no 145    34    35    36    37    38 no 146    39 no 147    40 no 148  ",
+        "objectID": "posts/xian-cheng",
+        "date": "2020-01-20T23:11:22.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java"
+        ],
+        "toc": true,
+        "published": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "正则表达式",
+        "uri": "posts/正则表达式",
+        "content": "w             s          d      b                               eg   ba w b     a                   b        a                w            b w 6  b  6        d   1                              1       0      d 5 12   5 12                  eg  yang419  com  yang419 com     0             0  1   n   n   n  n  n m n   m      aeiou                         or or          0 d 2     d 8      010 88886666  022 22334455  02912345678                                                 0 d 2   d 8  0 d 2      d 8             1       8     2      7                      d 1 3     3  d 1 3   d 1 3      1 3      d 1 3     3  1 3                        W                        S              D             B                      x          aeiou",
+        "objectID": "posts/正则表达式",
+        "date": "2019-11-22T03:00:00.000Z",
+        "tags": [
+            "正则表达式"
+        ],
+        "categories": [
+            "编程"
+        ],
+        "published": true,
+        "toc": true,
+        "hideInList": false,
+        "feature": null,
+        "isTop": false
+    },
+    {
+        "title": "Search Results",
+        "uri": "search",
+        "content": "",
+        "objectID": "search",
+        "sitemap": {
+            "priority": 0.1
+        },
+        "layout": "search"
+    }
+]
