@@ -39,15 +39,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         weight: 0.5
       },
       {
-        name: "contents",
-        weight: 0.5
-      },
-      {
         name: "tags",
-        weight: 0.3
-      },
-      {
-        name: "categories",
         weight: 0.3
       },
       {
@@ -74,18 +66,16 @@ document.addEventListener('DOMContentLoaded', async () => {
   function render(items) {
     return items.map(item => {
       item = item.item
-      return `<li class="post-item">
-        <a href="${item.permalink}">
-          <span class="post-title">${item.title}</span>
-          <span
-            class="post-day">${item.date}</span>
-        </a>
-      </li>`}).join('')
+      return `<div class="post on-list">
+                <h1 class="post-title"><a href="${item.permalink}">${item.title}</a></h1>
+                <div class="post-meta"><span class="post-date">${item.date}</span> <span>#${item.tags}</span></div>
+                <div class="post-content">${item.summary}</div>
+              </div>`}).join('')
   }
 
   function updateDOM(html, number) {
     searchResult.innerHTML = html
-    searchCount.innerHTML = `共有查询到${number}篇文章`
+    searchCount.innerHTML = `共查询到 ${number} 篇文章`
   }
 
   async function search() {
@@ -97,7 +87,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   function doSearch() {
-    const wd = parseLocationSearch()['wd'] || ''
+    const wd = parseLocationSearch()['q'] || ''
     searchInput.value = wd
     if (wd) {
       search()
@@ -105,10 +95,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   function goSearch() {
-    if (searchInput.value == parseLocationSearch()['wd']) {
+    if (searchInput.value == parseLocationSearch()['q']) {
       return
     }
-    history.pushState('', '', location.pathname + '?wd=' + searchInput.value)
+    history.pushState('', '', location.pathname + '?q=' + searchInput.value)
     searchInput.blur();
     doSearch()
   }
