@@ -13,6 +13,15 @@
     
     
     <item>
+      <title> ! [rejected]        develop -&gt; develop (fetch first)解决办法</title>
+      <link>https://yang419.com/posts/rejected-develop-develop-fetch-first-%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
+      <pubDate>Wed, 08 Apr 2020 14:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/rejected-develop-develop-fetch-first-%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
+      <description>1、git pull origin master --allow-unrelated-histories //把远程仓库和本地同步，消除差异 2、重新add和commit相应文件 3、git push origin develop 4、此时就能够上传成功了</description>
+    </item>
+    
+    <item>
       <title>How to Write Usefully</title>
       <link>https://yang419.com/posts/how-to-write-usefully/</link>
       <pubDate>Wed, 08 Apr 2020 14:00:00 +0000</pubDate>
