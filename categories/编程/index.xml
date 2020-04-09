@@ -21,5 +21,16 @@
       <description>&lt;p&gt;简单来说，正则表达式就是记录本文规则的代码&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Git learning notes</title>
+      <link>https://yang419.com/posts/git-notes/</link>
+      <pubDate>Wed, 20 Nov 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/git-notes/</guid>
+      <description>&lt;p&gt;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Git&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

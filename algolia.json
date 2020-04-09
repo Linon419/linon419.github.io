@@ -108,6 +108,9 @@
             "Git"
         ],
         "published": true,
+        "categories": [
+            "编程"
+        ],
         "toc": true,
         "hideInList": false,
         "feature": null,
