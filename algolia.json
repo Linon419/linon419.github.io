@@ -389,8 +389,12 @@
         "content": "1 git pull origin master   allow unrelated histories                   2   add commit     3 git push origin develop 4",
         "objectID": "posts/rejected-develop-develop-fetch-first-解决办法",
         "date": "2020-04-08T14:00:00.000Z",
-        "tags": [],
-        "categories": [],
+        "tags": [
+            "Git"
+        ],
+        "categories": [
+            "编程"
+        ],
         "toc": true
     },
     {
