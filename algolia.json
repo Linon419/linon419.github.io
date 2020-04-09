@@ -164,6 +164,21 @@
         "isTop": false
     },
     {
+        "title": "How to Write Usefully",
+        "uri": "posts/how-to-write-usefully",
+        "content": "Essay    Essay               Essay   Paul    Essay                                                                                           Pick s Peak near middle Colorado    Pick s Peak merely somewhere Colorado             it s exact middle Colorado",
+        "objectID": "posts/how-to-write-usefully",
+        "date": "2020-04-08T14:00:00.000Z",
+        "tags": [
+            "Essay",
+            "English"
+        ],
+        "categories": [
+            "英语爱好者"
+        ],
+        "toc": true
+    },
+    {
         "title": "Inheritance",
         "uri": "posts/Inheritance",
         "content": "When inherit existing class  reuse its method  add new method fields adapt new class new situations    Classes  super class  child class Defining Subclass two ways fiels super class child class  Access directly  firstly use left     Access method  who s method  use who  otherwise find super class   super class     public class Employee   int salary   20  public void Employee    System out println salary          child class public class Manager extends Employee   private double bonus  int price   200  int salary   300  public void Manager    System out println salary       public class Main   public static void main String   args    Manager m   new Manager    System out println m price    200 System out println m salary    300 System out println                         System out println m salary   m Manager     300 m Employee     20     super refers current object  super keyword java reference variable used refer parent class objects super class public class Employee   int age   20    child class public class Manager extends Employee  int age   30  public void method    int age   40  System out println age    40 System out println this age    30 System out println super age    20     public class Main   public static void main String   args    Manager m   new Manager    m method        override object oriented programming language  Overriding feature allows subclass child class provide specific implementation method already provided one its super classes parent classes  override method name       public class Employee   int salary   10  int bonus   5  public int getSalary     return salary    public int getBonus     return bonus      public class Manager extends Employee  int bonus   3   Override public int getSalary    int salary   super getSalary    return salary   bonus      public class Main   public static void main String   args    Manager m   new Manager    int salary   m getSalary    System out println salary       result 13",

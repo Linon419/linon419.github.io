@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 29 Feb 2020 15:09:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 14:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yang419.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Write Usefully</title>
+      <link>https://yang419.com/posts/how-to-write-usefully/</link>
+      <pubDate>Wed, 08 Apr 2020 14:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/how-to-write-usefully/</guid>
+      <description>什么样的Essay算一篇好Essay，很多人说具有说服力就算一篇好Essay，对此Paulhttp://www.paulgraham.com</description>
+    </item>
     
     <item>
       <title>EnglishPod</title>
