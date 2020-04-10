@@ -2,42 +2,42 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://yang419/fr/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://yang419.com/fr/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://yang419/en/categories/"
+                        href="https://yang419.com/en/categories/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://yang419/categories/"
+                        href="https://yang419.com/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://yang419/fr/categories/"
+                    href="https://yang419.com/fr/categories/"
                     /></url><url>
-            <loc>https://yang419/fr/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://yang419.com/fr/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://yang419/en/"
+                        href="https://yang419.com/en/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://yang419/"
+                        href="https://yang419.com/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://yang419/fr/"
+                    href="https://yang419.com/fr/"
                     /></url><url>
-            <loc>https://yang419/fr/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://yang419.com/fr/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://yang419/en/tags/"
+                        href="https://yang419.com/en/tags/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://yang419/tags/"
+                        href="https://yang419.com/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://yang419/fr/tags/"
+                    href="https://yang419.com/fr/tags/"
                     /></url></urlset>
