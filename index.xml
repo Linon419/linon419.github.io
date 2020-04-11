@@ -417,7 +417,7 @@ graph LR;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34; id=&#34;id-5c3f88&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;mermaid&#34; id=&#34;id-478c1a&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;sequence-diagram&#34;&gt;时序图&lt;/h4&gt;
 &lt;p&gt;一个 &lt;strong&gt;时序图&lt;/strong&gt; &lt;code&gt;mermaid&lt;/code&gt; 示例:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -453,7 +453,7 @@ sequenceDiagram
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34; id=&#34;id-973388&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;mermaid&#34; id=&#34;id-e97aa5&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;gantt&#34;&gt;甘特图&lt;/h4&gt;
 &lt;p&gt;一个 &lt;strong&gt;甘特图&lt;/strong&gt; &lt;code&gt;mermaid&lt;/code&gt; 示例:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -497,7 +497,7 @@ gantt
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34; id=&#34;id-7d3888&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;mermaid&#34; id=&#34;id-e2a911&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;class-diagram&#34;&gt;类图&lt;/h4&gt;
 &lt;p&gt;一个 &lt;strong&gt;类图&lt;/strong&gt; &lt;code&gt;mermaid&lt;/code&gt; 示例:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -539,7 +539,7 @@ classDiagram
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34; id=&#34;id-f9bc88&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;mermaid&#34; id=&#34;id-29c510&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;state-diagram&#34;&gt;状态图&lt;/h4&gt;
 &lt;p&gt;一个 &lt;strong&gt;状态图&lt;/strong&gt; &lt;code&gt;mermaid&lt;/code&gt; 示例:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -567,7 +567,7 @@ stateDiagram
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34; id=&#34;id-d92500&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;mermaid&#34; id=&#34;id-15cbf1&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;git-graph&#34;&gt;Git 图&lt;/h4&gt;
 &lt;p&gt;一个 &lt;strong&gt;Git 图&lt;/strong&gt; &lt;code&gt;mermaid&lt;/code&gt; 示例:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -613,7 +613,7 @@ end
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34; id=&#34;id-838750&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;mermaid&#34; id=&#34;id-970e55&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;pie&#34;&gt;饼图&lt;/h4&gt;
 &lt;p&gt;一个 &lt;strong&gt;饼图&lt;/strong&gt; &lt;code&gt;mermaid&lt;/code&gt; 示例:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -635,7 +635,7 @@ pie
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34; id=&#34;id-359428&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;mermaid&#34; id=&#34;id-1272fe&#34;&gt;&lt;/div&gt;
 &lt;h3 id=&#34;echarts&#34;&gt;&lt;code&gt;echarts&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://echarts.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;ECharts&lt;/a&gt;
  是一个帮助你生成交互式数据可视化的库.&lt;/p&gt;
@@ -1242,7 +1242,7 @@ pie
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;echarts&#34; id=&#34;id-8db808&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;echarts&#34; id=&#34;id-471580&#34;&gt;&lt;/div&gt;
 &lt;h3 id=&#34;music&#34;&gt;&lt;code&gt;music&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;music&lt;/code&gt; shortcode 基于 &lt;a href=&#34;https://github.com/MoePlayer/APlayer&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;APlayer&lt;/a&gt;
  和 &lt;a href=&#34;https://github.com/metowolf/MetingJS&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;MetingJS&lt;/a&gt;
@@ -1465,7 +1465,7 @@ Or
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;typeit&#34;&gt;&lt;div id=&#34;id-5f9792&#34; class=&#34;&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;typeit&#34;&gt;&lt;div id=&#34;id-792a11&#34; class=&#34;&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;另外, 你也可以自定义 &lt;strong&gt;HTML 标签&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;一个带有 &lt;code&gt;h4&lt;/code&gt; 标签的 &lt;code&gt;typeit&lt;/code&gt; 示例:&lt;/p&gt;
@@ -1482,7 +1482,7 @@ Or
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;typeit&#34;&gt;&lt;h4 id=&#34;id-5788d2&#34; class=&#34;&#34;&gt;&lt;/h4&gt;&lt;/div&gt;
+&lt;div class=&#34;typeit&#34;&gt;&lt;h4 id=&#34;id-117295&#34; class=&#34;&#34;&gt;&lt;/h4&gt;&lt;/div&gt;
 
 &lt;h4 id=&#34;code-content&#34;&gt;代码内容&lt;/h4&gt;
 &lt;p&gt;代码内容也是允许的, 并且通过使用参数 &lt;code&gt;code&lt;/code&gt; 指定语言类型可以实习语法高亮.&lt;/p&gt;
@@ -1508,7 +1508,7 @@ public class HelloWorld {
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;typeit&#34;&gt;&lt;div id=&#34;id-cb2f39&#34; class=&#34; highlight&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;typeit&#34;&gt;&lt;div id=&#34;id-129945&#34; class=&#34; highlight&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&#34;code-content&#34;&gt;分组内容&lt;/h4&gt;
 &lt;p&gt;默认情况下, 所有打字动画都是同时开始的.
@@ -1536,9 +1536,9 @@ public class HelloWorld {
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;呈现的输出效果如下:&lt;/p&gt;
-&lt;div class=&#34;typeit&#34;&gt;&lt;div id=&#34;id-027838&#34; class=&#34;&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;typeit&#34;&gt;&lt;div id=&#34;id-51c211&#34; class=&#34;&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&#34;typeit&#34;&gt;&lt;div id=&#34;id-0548c8&#34; class=&#34;&#34;&gt;&lt;/div&gt;&lt;/div&gt;</description>
+&lt;div class=&#34;typeit&#34;&gt;&lt;div id=&#34;id-251e7a&#34; class=&#34;&#34;&gt;&lt;/div&gt;&lt;/div&gt;</description>
             </item><item>
                 <title>Search Results</title>
                 <link>https://yang419.com/search/</link>
