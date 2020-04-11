@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 08 Apr 2020 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 14:13:06 +0000</lastBuildDate>
     
 	<atom:link href="https://yang419.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java反射简单概念</title>
+      <link>https://yang419.com/posts/java%E5%8F%8D%E5%B0%84%E7%AE%80%E5%8D%95%E6%A6%82%E5%BF%B5/</link>
+      <pubDate>Fri, 10 Apr 2020 14:13:06 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/java%E5%8F%8D%E5%B0%84%E7%AE%80%E5%8D%95%E6%A6%82%E5%BF%B5/</guid>
+      <description>反射，就是通过Class文件对象，获取该文件中的成员变量，构造方法，成员方法 要想这样使用，先要得到Class文件对象 Class类： ​ 成员变量</description>
+    </item>
     
     <item>
       <title> ! [rejected]        develop -&gt; develop (fetch first)解决办法</title>

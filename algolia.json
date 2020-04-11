@@ -212,6 +212,23 @@
         "isTop": false
     },
     {
+        "title": "Java反射简单概念",
+        "uri": "posts/java反射简单概念",
+        "content": "Class                                      Class     Class          Filed        Constructor         Method            Class       Object  getClass                class Class        public static Class forName String ClassName  public class Reflect     the first public static void main String   args  throws ClassNotFoundException   Person p1   new Person    Class c1   p1 getClass    Person p2   new Person    Class c2   p2 getClass    System out println p1  p2    false System out println c1  c2    true   the second Class c3   Person class  System out println c3  c1    true   the third Class c4   Class forName  com demo01 Person    System out println c4  c1    true                       public Constructor   getConstructors            public Constructor   getDeclaredConstructors                   public Constructors getCostructor Class    parameterTypes         Class c   Class forName  com demo01 Person    Constructor con   c getConstructor int class String class String class   Object obj   con newInstance 23  Hugo   Australia    System out println obj                     Constructor con2   c getDeclaredConstructor String class   con2 setAccessible true   Object obj2   con2 newInstance  Liyang    System out println obj2                       Field   fields   c getFields               Field   fields2   c getDeclaredFields                        address      Field fields3   c getField  address    Object obj   con newInstance    fields3 set obj  China    System out println obj                Field field4   c getDeclaredField  name    field4 setAccessible true   field4 set obj  Yang    System out println obj                 getMethods getDeclaredMethods        getMethod getDeclaredMethod      method setAccessible true   Class c   Class forName  com demo01 Person    Constructor con   c getConstructor    Object obj   con newInstance      public Method getMethod String name  Class param                       Class   Method m1   c getMethod  show      public Object invoke Object obj  Object args                    m1 invoke obj",
+        "objectID": "posts/java反射简单概念",
+        "date": "2020-04-10T14:13:06.000Z",
+        "tags": [
+            "Java"
+        ],
+        "categories": [
+            "Java",
+            "反射"
+        ],
+        "toc": true,
+        "autoCollapseToc": false,
+        "feature": null
+    },
+    {
         "title": "继承",
         "uri": "posts/ji-cheng",
         "content": "is a           public class                    public class zilei extends fulei                                                                                                                  public class Empolyee  int age   20    public class Teacher extends Employee  int age   39    public class Demo  public class void main String   args   Thacher te   new Teacher              te age   39          public class Empolyee  int age   20  public void methodFu    System out println age       public class Teacher extends Employee  int age   39  public void methodZi    System out println age       public class Demo  public class void main String   args   Thacher te   new Teacher              te age   39 te methodZi     39 te methodFu     20     super      public class Empolyee  int age   20    public class Teacher extends Employee  int age   39  public void methodZi    int age   10 System out println age    10 System out println this age    39 System out println super age    20     super  3                                                          public class Empolyee  int age   20  public void method    System out println  Fu        public class Teacher extends Employee  int age   39  public Teacher    super      public void method    super age  super method      3                                                                  A     this                       B  super   this               public class Empolyee  int age   20    public class Teacher extends Employee  int age   39  public Zi    this 123                 public Zi int a     public void methodZi    int age   10 System out println age    10 System out println this age    39 System out println super age    20   public void methodA    this methodZi",
