@@ -218,11 +218,11 @@
         "objectID": "posts/java反射简单概念",
         "date": "2020-04-10T14:13:06.000Z",
         "tags": [
-            "Java"
-        ],
-        "categories": [
             "Java",
             "反射"
+        ],
+        "categories": [
+            "Java"
         ],
         "toc": true,
         "autoCollapseToc": false,
