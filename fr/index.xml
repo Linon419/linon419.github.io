@@ -1,8 +1,7 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Yang&#39;s Blog</title>
-        <link>https://yang419.com/fr/</link>
-        <description>À propos du thème LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><managingEditor>lzlyvip@gmail.com (Yang)</managingEditor>
-            <webMaster>lzlyvip@gmail.com (Yang)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://yang419.com/fr/" rel="self" type="application/rss+xml" /></channel>
+        <title>LoveIt | LoveIt</title>
+        <link>https://yang419.com/fr/index.xml</link>
+        <description>LoveIt | LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://yang419.com/fr/index.xml" rel="self" type="application/rss+xml" /></channel>
 </rss>

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Spider in Python | Yang&#39;s Blog</title>
+        <meta name="Description" content="探索世界的好奇心万岁"><meta property="og:title" content="Spider in Python" />
+<meta property="og:description" content="There are some ways to use spider, for example, request, bs4&hellip;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yang419.com/posts/spider-in-python/" />
+<meta property="article:published_time" content="2019-11-21T06:00:00+00:00" />
+<meta property="article:modified_time" content="2019-11-21T06:00:00+00:00" /><meta property="og:site_name" content="Yang&#39;s Blog" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Spider in Python"/>
+<meta name="twitter:description" content="There are some ways to use spider, for example, request, bs4&hellip;"/>
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#da532c">
+<link rel="stylesheet" href="/css/search.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.0.0/dist/jquery.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.1/jquery.modal.min.js"></script>
+
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/algoliasearch.min.js"></script>
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/autocomplete.min.js"></script>
+
+
+ 
+<script src= "/js/search.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.1/jquery.modal.min.css" />
+
+<link rel="canonical" href="https://yang419.com/posts/spider-in-python/" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="prev" href="https://yang419.com/posts/git-notes/" /><link rel="next" href="https://yang419.com/posts/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Spider in Python",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/yang419.com\/posts\/spider-in-python\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/yang419.com\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","keywords": "Spider","wordcount":  1656 ,
+        "url": "https:\/\/yang419.com\/posts\/spider-in-python\/","datePublished": "2019-11-21","dateModified": "2019-11-21","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "xxxx",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/yang419.com\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Yang"
+            },"description": ""
+    }
+    </script></head>
+    <body><script>
+            if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;} else {
+                window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            }
+            window.isDark && document.body.classList.add('dark-theme');
+        </script><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/">Yang&#39;s Blog</a>
+        </div>
+        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" rel="noopener noreffer">分类</a><a class="menu-item" href="/about/" rel="noopener noreffer">关于</a>
+            <a href="#ex1" rel="modal:open"><i class="fas fa-search fa-fw"></i></a>
+            
+                       <span class="menu-item">|</span>
+            <a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-wrapper">
+        <div class="header-container">
+            <div class="header-title">
+                <a href="/">Yang&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" title="" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" title="" rel="noopener noreffer">分类</a><a class="menu-item" href="/about/" title="" rel="noopener noreffer">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/spider-in-python/" selected>简体中文</option></select>
+                </a>
+            <a href="#ex1" rel="modal:open"><i class="fas fa-search fa-fw"></i></a>
+            
+        </div>
+    </div>
+</header>
+
+<script>
+    window.desktopHeaderMode = "fixed";
+    window.mobileHeaderMode = "auto";
+</script>
+<main class="main">
+                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">Spider in Python</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Yang</a>
+</span>&nbsp;
+                    <span class="post-category">收录于<a href="/categories/python">
+                                <i class="far fa-folder fa-fw"></i>Python
+                            </a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2019-11-21>2019-11-21</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>约 1656 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>预计阅读 4 分钟&nbsp;</div>
+        </div><div class="toc" id="toc-auto">
+                <h2 class="toc-title">目录</h2>
+                <div class="toc-content" id="toc-content-auto"></div>
+            </div>
+            <div class="toc" id="toc-static">
+                <details>
+                    <summary>
+                        <div class="toc-title">
+                            <span>目录</span>
+                            <span><i class="details icon fas fa-angle-down"></i></span>
+                        </div>
+                    </summary>
+                    <div class="toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#7-main-functions-in-requests">7 Main functions in requests</a></li>
+    <li><a href="#requestsrequestmethod-url-kwargs">requests.request(method, url, **kwargs)</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#jd-get">JD get</a></li>
+    <li><a href="#baidu-post">Baidu post</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#basic-code">basic code</a></li>
+    <li><a href="#beautiful-soup-库解析器">Beautiful Soup 库解析器</a></li>
+    <li><a href="#基本元素">基本元素</a></li>
+    <li><a href="#遍历">遍历</a></li>
+    <li><a href="#find-information">Find information</a></li>
+    <li><a href="#爬取大学排名">爬取大学排名</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#概念">概念</a>
+      <ul>
+        <li><a href="#节点node">节点（node）</a></li>
+        <li><a href="#节点关系">节点关系</a></li>
+      </ul>
+    </li>
+    <li><a href="#语法">语法</a></li>
+  </ul>
+</nav></div>
+                </details>
+            </div><div class="content" id="content"><p>There are some ways to use spider, for example, request, bs4&hellip;</p>
+<h1 id="request">Request</h1>
+<h2 id="7-main-functions-in-requests">7 Main functions in requests</h2>
+<ul>
+<li><code>requests.request()</code> generate a request, basic function</li>
+<li><code>requests.get()</code> Get the html</li>
+<li><code>requests.head()</code> Get the head of html</li>
+<li><code>requests.post()</code> Post a request to website</li>
+<li><code>requests.put()</code> Put a requests</li>
+<li><code>requests.patch()</code> Modify the website</li>
+<li><code>requests.delete()</code> delete the website</li>
+</ul>
+<h2 id="requestsrequestmethod-url-kwargs">requests.request(method, url, **kwargs)</h2>
+<ul>
+<li>method means get, head, post&hellip;.</li>
+<li>kwargs: 控制访问的参数，均为可选项</li>
+</ul>
+<ol>
+<li>params: 字典或字符序列，增加的url</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">kv = {&#39;key1&#39;: &#39;value1&#39;, &#39;key2&#39;:&#39;value2&#39;}
+r = requests.request(&#39;GET&#39;, &#39;http://python123.io/ws&#39;, params=kv)
+print(r.url)
+</code></pre></td></tr></table>
+</div>
+</div><p>The result is <code>https://python123.io/ws?key1=value1&amp;key2=value2</code>
+2. data:字典或字符序列或文件对象， 作为Request的内容</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">kv = {&#39;key1&#39;: &#39;value1&#39;, &#39;key2&#39;:&#39;value2&#39;}
+r = requests.request(&#39;GET&#39;, &#39;http://python123.io/ws&#39;, data=kv)
+print(r.url)
+</code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>JSON: JSON 格式的数据， 作为request的内容</li>
+<li>heasers: 字典， http定制头</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">hd = {&#39;user-agent&#39;:&#39;Chrome/10&#39;}
+r = requests.request(&#39;POST&#39;,&#39;http://python123.io/ws&#39;, headers = hd)
+</code></pre></td></tr></table>
+</div>
+</div><ol start="5">
+<li>files: dict, transfer file</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">fs = {&#39;file&#39;:open(&#39;data.xls&#39;,&#39;rb&#39;)}
+r = requests.request(&#39;POST&#39;, &#39;http://python123.io/ws&#39;, files = fs)
+</code></pre></td></tr></table>
+</div>
+</div><ol start="6">
+<li>timeout: set time when get a website, if it doesnot response in set time, it will have a exception</li>
+<li>proxies: dict, set proxy vps</li>
+<li>allow_redirects: True/False, 重定向</li>
+<li>stream: true/false, 获取内容立即下载</li>
+</ol>
+<h1 id="practice">Practice</h1>
+<h2 id="jd-get">JD get</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">url = &#39;https://item.jd.com/43223278294.html&#39;
+try:
+    r = requests.get(url)
+    r.raise_for_status()  //if code = 200,its ok. Otherwise, exception
+    r.encoding = r.apparent_encoding
+    print(r.text[:1000])
+except:
+    print(Exception!)
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="baidu-post">Baidu post</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">url = &#34;http://www.baidu.com&#34;
+kv = {&#39;wd&#39;:&#39;蔡徐坤&#39;}
+try:
+    r = request.post(url,params = kv)
+    r.raise_for_status
+    r.encoding = r.apparent_encoding
+    print(r.text[:1000])
+except:
+    print(&#34;Exception&#34;)
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="beautisul-soup">Beautisul soup</h1>
+<h2 id="basic-code">basic code</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">from bs4 import BeautifulSoup
+soup = BeautiuflSoup(&#34;&lt;html&gt;data&lt;html&gt;&#34;, &#34;html.parser&#34;)
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="beautiful-soup-库解析器">Beautiful Soup 库解析器</h2>
+<ul>
+<li>bs4 Html: BeautifulSoup(data,html.parser)</li>
+<li>lxml Html: BeautifulSoup(data,&ldquo;lxml&rdquo;) <code>pip3 install lxml</code></li>
+<li>lxml Xml: BeautifulSoup(data,&ldquo;xml&rdquo;)  <code>pip3 install lxml</code></li>
+<li>html5lib: BeautifulSoup(data,&ldquo;html5lib&rdquo;) <code>pip3 install html5lib</code></li>
+</ul>
+<h2 id="基本元素">基本元素</h2>
+<ul>
+<li>Tag: &lt;&gt;xxx&lt;/&gt;</li>
+<li>Name: the name of tag, the name of <p>,,,</p> is &lsquo;p&rsquo;, format: <tag>.name</li>
+<li>Attributes: <tag>.attrs</li>
+<li>NavigableString: 非属性string, format: <tag>.string</li>
+<li>Comment: special comment</li>
+</ul>
+<h2 id="遍历">遍历</h2>
+<ul>
+<li>下行遍历</li>
+</ul>
+<ol>
+<li><code>.content</code> : 子节点列表， 将<tag>所有儿子节点存入列表 eg.<code>soup.body.content</code></li>
+<li><code>.children</code>: 子节点的迭代类型，与content类似， 用于循环遍历儿子节点</li>
+<li><code>descendants</code>: 遍历所有子孙节点</li>
+</ol>
+<ul>
+<li>上行遍历</li>
+</ul>
+<ol>
+<li><code>.parent</code>: 节点的父亲标签</li>
+<li><code>.parents</code>: 循环遍历先辈节点</li>
+</ol>
+<ul>
+<li>平行遍历</li>
+</ul>
+<ol>
+<li><code>.next_sibing</code>: 返回下一个平行节点标签</li>
+<li><code>.previous_sibing</code>: 返回上一个平行节点标签</li>
+<li><code>.next_sibings</code>: 遍历后续所有平行标签</li>
+<li><code>.previous_sibings</code>: 遍历所有前边平行节点</li>
+</ol>
+<h2 id="find-information">Find information</h2>
+<p><code>&lt;&gt;.find_all(name,attrs,recursive,string,**kwargs)</code>==<code>&lt;&gt;()</code>
+返回一个列表类型，存储查找的结果</p>
+<ol>
+<li>name: 对a标签查找，查找所有： soup.find_all[&lsquo;a&rsquo;,&lsquo;b&rsquo;]</li>
+<li>attrs:对属性查找</li>
+<li>recursive: 是否对子孙节点搜索</li>
+<li>string: search string</li>
+</ol>
+<h2 id="爬取大学排名">爬取大学排名</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">import requests
+from bs4 import BeautifulSoup
+import bs4
+
+def getHtml(url):
+    r = requests.get(url,timeout = 30)
+    r.raise_for_status()
+    r.encoding = r.apparent_encoding
+    return r.text
+
+def fillList(list, html):
+    soup = BeautifulSoup(html, &#34;html.parser&#34;)
+    for tr in soup.find(&#39;tbody&#39;).children:
+        if isinstance(tr, bs4.element.Tag):
+            tds = tr(&#39;td&#39;)
+            list.append([tds[0].string, tds[1].string, tds[4].string])
+
+def printList(list,num):
+    print(&#34;{:^10}\t{:^6}\t{:^10}&#34;.format(&#34;排名&#34;,&#34;学校&#34;,&#34;分数&#34;))
+    for i in range(num):
+        u = list[i]
+        print(&#34;{:^10}\t{:&lt;6}\t{:&gt;10}&#34;.format(u[0],u[1],u[2]))
+
+def main():
+    list = []
+    url = &#34;http://www.zuihaodaxue.com/ARWU2019.html&#34;
+    html = getHtml(url)
+    fillList(list,html)
+    printList(list,100)
+
+main()
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="re库基本使用">Re库基本使用</h1>
+<ul>
+<li><code>re.search()</code>在一个字符串中搜素匹配正则表达式的第一个位置，返回match对象
+re.search(pattern,string,flags = 0)
+<ol>
+<li>pattern: 正则表达式的字符串或原生字符串表示</li>
+<li>string:待匹配字符串</li>
+<li>flags: 正则表达式使用时的控制标记
+<code>re.I</code>:忽略正则表达式大小写
+<code>re.M</code>正则表达式中的^能够将给定的字符串的每行当作匹配开始
+<code>re.S</code>正则表达式中的.匹配除换行外的所有字符</li>
+</ol>
+</li>
+<li><code>re.match()</code>从一个字符串的开始位置起匹配正则表达式，返回match对象
+属性
+<ol>
+<li><code>.string</code>:待匹配的文本</li>
+<li><code>.re</code>匹配时使用的pattern对象</li>
+<li><code>pos</code>正则表达式搜索文本的开始位置</li>
+<li><code>endpos</code>正则表达式搜索文本的结束位置
+方法</li>
+<li><code>.group(0)</code>:获取匹配后的字符串</li>
+<li><code>.start()</code>:匹配字符串在原始字符串的开始位置</li>
+<li><code>.end()</code>：匹配字符串在原始字符串的结束位置</li>
+<li><code>.span()</code>：返回(.start().end())</li>
+</ol>
+</li>
+<li><code>re.findall()</code>搜索字符串中以列表类型返回全部能匹配的字串</li>
+<li><code>re.split()</code>将一个字符串按照正则表达式匹配结果进行分割，返回列表类型</li>
+<li><code>re.finditer</code>搜索字符串，返回一个匹配结果的迭代类型，每个迭代元素是match对象</li>
+<li><code>re.sub()</code>在一个字符串中替换所有匹配正则表达式的字串，返回替换后的字符串</li>
+<li>贪婪匹配
+例子：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">match = re.search(r&#39;PY.*N&#39;, &#39;PYANBNCNDN&#39;)
+match.group(0)
+</code></pre></td></tr></table>
+</div>
+</div><p>result is <code>PYANBNCNDN</code>
+最小匹配： 加？<code>r'PY.*?N'</code></p>
+<h1 id="scrapy">Scrapy</h1>
+<p>Scrapy 常用命令</p>
+<ul>
+<li><code>startproject&lt;name&gt;[dir]</code>创建一个新工程</li>
+<li><code>genspider[options]&lt;name&gt;&lt;domin&gt;</code> 创建一个新爬虫</li>
+<li><code>settings[options]</code>获取爬虫配置信息</li>
+<li><code>crawel &lt;spider&gt;</code> run a spider</li>
+<li><code>list</code> list all spider in this project</li>
+<li><code>shell</code>启用url调试命令行
+yield：冻结，执行</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">def gen(num):
+    for i in range(num):
+        yield i**2
+for i in gen(6):
+    print(i,&#34;&#34;,end=&#34;&#34;)
+</code></pre></td></tr></table>
+</div>
+</div><p>结果0 1 4 9 16 25</p>
+<h1 id="xpath">xpath</h1>
+<p>xpath 是一种在xml文档查找信息的语言</p>
+<h2 id="概念">概念</h2>
+<h3 id="节点node">节点（node）</h3>
+<p>元素，属性，文本，命名空间，文档（根）节点</p>
+<h3 id="节点关系">节点关系</h3>
+<p>父(parent)
+children
+sibling
+ancestor
+descentant</p>
+<h2 id="语法">语法</h2>
+<p>| 表达式 |    描述 |
+nodename	选取此节点的所有子节点。
+/	        从根节点选取。
+//	        从匹配选择的当前节点选择文档中的节点，而不考虑它们的位置。
+.	        选取当前节点。
+..	        选取当前节点的父节点。
+@	        选取属性。
+comment = result.xpath('//span[@class = &ldquo;short&rdquo;]/text()') . 读取内容</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>本文于 2019-11-21 更新</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://yang419.com/posts/spider-in-python/" data-title="Spider in Python" data-via="xxxx" data-hashtags="Spider"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://yang419.com/posts/spider-in-python/" data-hashtag="Spider"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://yang419.com/posts/spider-in-python/" data-title="Spider in Python" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 人人" data-sharer="renren" data-url="https://yang419.com/posts/spider-in-python/"><i class="fab fa-renren fa-fw"></i></a><a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="https://yang419.com/posts/spider-in-python/" data-title="Spider in Python"><i class="loveit it-baidu-fill"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://yang419.com/posts/spider-in-python/" data-title="Spider in Python"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/spider">Spider</a></section>
+        <section>
+            <span><a href="javascript:window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/git-notes/" class="prev" rel="prev" title="Git learning notes"><i class="fas fa-angle-left fa-fw"></i>Git learning notes</a>
+            <a href="/posts/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" class="next" rel="next" title="正则表达式">正则表达式<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div class="comment"><div id="gitalk"></div><script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var gitalk = new Gitalk({
+                    id: '2019-11-21 06:00:00 \x2b0000 UTC',
+                    title: 'Spider in Python',
+                    clientID: 'aaf5f9533adc0dca3acc',
+                    clientSecret: '2f6dfba3b1c4bd93872985c401b4e7f4fce5651b',
+                    repo: 'linon419.github.io',
+                    owner: 'Linon419',
+                    admin: ['Linon419'],
+                    body: decodeURI(location.href),
+                });
+                gitalk.render('gitalk');
+            });
+        </script>
+        <noscript>
+            Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by Gitalk.</a>
+        </noscript></div>
+    </article></div>
+            </main><footer class="footer">
+    <div class="copyright"><div class="copyright-line">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer"><i class="far fa-heart fa-fw"></i> LoveIt</a>
+        </div>
+
+        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Yang</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+    </div>
+</footer>
+</div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
+            <i class="fas fa-chevron-up fa-fw"></i>
+        </a><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.css"><link rel="stylesheet" href="/lib/iconfont/iconfont.min.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.min.js"></script><script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.2/dist/smooth-scroll.polyfills.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js"></script><script src="/js/theme.min.js"></script>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-163376231-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<div id="ex1" class="modal">
+        <div class="aa-input-container" id="aa-input-container">
+    <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Search for titles or URIs..." name="search" autocomplete="off" />
+    <svg class="aa-input-icon" viewBox="654 -372 1664 1664">
+        <path d="M1806,332c0-123.3-43.8-228.8-131.5-316.5C1586.8-72.2,1481.3-116,1358-116s-228.8,43.8-316.5,131.5  C953.8,103.2,910,208.7,910,332s43.8,228.8,131.5,316.5C1129.2,736.2,1234.7,780,1358,780s228.8-43.8,316.5-131.5  C1762.2,560.8,1806,455.3,1806,332z M2318,1164c0,34.7-12.7,64.7-38,90s-55.3,38-90,38c-36,0-66-12.7-90-38l-343-342  c-119.3,82.7-252.3,124-399,124c-95.3,0-186.5-18.5-273.5-55.5s-162-87-225-150s-113-138-150-225S654,427.3,654,332  s18.5-186.5,55.5-273.5s87-162,150-225s138-113,225-150S1262.7-372,1358-372s186.5,18.5,273.5,55.5s162,87,225,150s113,138,150,225  S2062,236.7,2062,332c0,146.7-41.3,279.7-124,399l343,343C2305.7,1098.7,2318,1128.7,2318,1164z" />
+    </svg>
+</div>
+        </div>
+    </body>
+</html>

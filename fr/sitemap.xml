@@ -15,19 +15,6 @@
                     hreflang="fr"
                     href="https://yang419.com/fr/categories/"
                     /></url><url>
-            <loc>https://yang419.com/fr/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://yang419.com/en/tags/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="https://yang419.com/fr/tags/"
-                    /></url><url>
             <loc>https://yang419.com/fr/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -40,4 +27,17 @@
                     rel="alternate"
                     hreflang="fr"
                     href="https://yang419.com/fr/"
+                    /></url><url>
+            <loc>https://yang419.com/fr/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://yang419.com/en/tags/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://yang419.com/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="https://yang419.com/fr/tags/"
                     /></url></urlset>

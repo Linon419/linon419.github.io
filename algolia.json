@@ -11,6 +11,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -46,6 +47,7 @@
             "英语爱好者"
         ],
         "published": true,
+        "toc": true,
         "hideInList": false,
         "feature": null,
         "isTop": false
@@ -62,6 +64,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -79,6 +82,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -97,6 +101,7 @@
         "categories": [
             "编程"
         ],
+        "toc": true,
         "hideInList": false,
         "feature": null,
         "isTop": false
@@ -113,6 +118,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -130,6 +136,7 @@
         "categories": [
             "观点与感想"
         ],
+        "toc": true,
         "published": true,
         "hideInList": true,
         "feature": null,
@@ -147,7 +154,8 @@
         ],
         "categories": [
             "英语爱好者"
-        ]
+        ],
+        "toc": true
     },
     {
         "title": "Inheritance",
@@ -161,6 +169,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -178,6 +187,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -196,6 +206,7 @@
             "Java"
         ],
         "published": true,
+        "toc": true,
         "hideInList": false,
         "feature": null,
         "isTop": false
@@ -213,6 +224,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "autoCollapseToc": false,
         "feature": null
     },
@@ -228,6 +240,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -245,6 +258,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -262,6 +276,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -279,6 +294,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -296,6 +312,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -313,6 +330,7 @@
         "categories": [
             "书影音"
         ],
+        "toc": true,
         "published": true,
         "hideInList": true,
         "feature": "https://raw.githubusercontent.com/Linon419/Img/master/post-images/lesslesstu-bo-shu-zhi-ri-greatergreater-guan-hou-gan.jpg",
@@ -330,6 +348,7 @@
         "categories": [
             "观点与感想"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -347,6 +366,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -365,6 +385,7 @@
             "Python"
         ],
         "published": true,
+        "toc": true,
         "hideInList": false,
         "feature": null,
         "isTop": false
@@ -380,7 +401,8 @@
         ],
         "categories": [
             "编程"
-        ]
+        ],
+        "toc": true
     },
     {
         "title": "容器",
@@ -394,6 +416,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -411,6 +434,7 @@
         "categories": [
             "Python"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -428,6 +452,7 @@
         "categories": [
             "算法与数据结构"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -445,6 +470,7 @@
         "categories": [
             "Java"
         ],
+        "toc": true,
         "published": true,
         "hideInList": false,
         "feature": null,
@@ -463,6 +489,7 @@
             "编程"
         ],
         "published": true,
+        "toc": true,
         "hideInList": false,
         "feature": null,
         "isTop": false
