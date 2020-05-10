@@ -2,85 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://yang419.com/en/theme-documentation-basics/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/theme-documentation-basics/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/theme-documentation-basics/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/theme-documentation-basics/"
-                    /></url><url>
-            <loc>https://yang419.com/en/theme-documentation-content/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/theme-documentation-content/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/theme-documentation-content/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/theme-documentation-content/"
-                    /></url><url>
-            <loc>https://yang419.com/en/theme-documentation-built-in-shortcodes/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/theme-documentation-built-in-shortcodes/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/theme-documentation-built-in-shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/theme-documentation-built-in-shortcodes/"
-                    /></url><url>
-            <loc>https://yang419.com/en/theme-documentation-extended-shortcodes/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/theme-documentation-extended-shortcodes/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/theme-documentation-extended-shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/theme-documentation-extended-shortcodes/"
-                    /></url><url>
-            <loc>https://yang419.com/en/basic-markdown-syntax/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/basic-markdown-syntax/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/basic-markdown-syntax/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/basic-markdown-syntax/"
-                    /></url><url>
-            <loc>https://yang419.com/en/emoji-support/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/emoji-support/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/emoji-support/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/emoji-support/"
-                    /></url><url>
-            <loc>https://yang419.com/en/categories/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://yang419.com/en/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://yang419.com/categories/"
@@ -93,46 +15,7 @@
                     hreflang="en"
                     href="https://yang419.com/en/categories/"
                     /></url><url>
-            <loc>https://yang419.com/en/tags/configuration/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/tags/configuration/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/tags/configuration/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/tags/configuration/"
-                    /></url><url>
-            <loc>https://yang419.com/en/tags/installation/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/tags/installation/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/tags/installation/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/tags/installation/"
-                    /></url><url>
-            <loc>https://yang419.com/en/posts/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/posts/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/posts/"
-                    /></url><url>
-            <loc>https://yang419.com/en/tags/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://yang419.com/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://yang419.com/tags/"
@@ -145,98 +28,7 @@
                     hreflang="en"
                     href="https://yang419.com/en/tags/"
                     /></url><url>
-            <loc>https://yang419.com/en/tags/content/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/tags/content/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/tags/content/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/tags/content/"
-                    /></url><url>
-            <loc>https://yang419.com/en/tags/markdown/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/tags/markdown/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/tags/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/tags/markdown/"
-                    /></url><url>
-            <loc>https://yang419.com/en/tags/shortcodes/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/tags/shortcodes/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/tags/shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/tags/shortcodes/"
-                    /></url><url>
-            <loc>https://yang419.com/en/tags/html/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/tags/html/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/tags/html/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/tags/html/"
-                    /></url><url>
-            <loc>https://yang419.com/en/categories/markdown/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/categories/markdown/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/categories/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/categories/markdown/"
-                    /></url><url>
-            <loc>https://yang419.com/en/tags/emoji/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/tags/emoji/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/tags/emoji/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/tags/emoji/"
-                    /></url><url>
-            <loc>https://yang419.com/en/about/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/about/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/about/"
-                    /></url><url>
-            <loc>https://yang419.com/en/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://yang419.com/en/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://yang419.com/"
@@ -248,17 +40,4 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://yang419.com/en/"
-                    /></url><url>
-            <loc>https://yang419.com/en/categories/documentation/</loc><lastmod>2020-05-10T10:01:12&#43;10:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://yang419.com/categories/documentation/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://yang419.com/fr/categories/documentation/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://yang419.com/en/categories/documentation/"
                     /></url></urlset>

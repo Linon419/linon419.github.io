@@ -4,59 +4,75 @@
         <link>https://yang419.com/posts/</link>
         <description>%!(EXTRA string=posts) | Yang&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>lzlyvip@gmail.com (Yang)</managingEditor>
-            <webMaster>lzlyvip@gmail.com (Yang)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</lastBuildDate><atom:link href="https://yang419.com/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>主题文档 - 基本概念</title>
-    <link>https://yang419.com/theme-documentation-basics/</link>
-    <pubDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</pubDate>
+            <webMaster>lzlyvip@gmail.com (Yang)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Apr 2020 14:13:06 &#43;0000</lastBuildDate><atom:link href="https://yang419.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Java反射简单概念</title>
+    <link>https://yang419.com/java%E5%8F%8D%E5%B0%84%E7%AE%80%E5%8D%95%E6%A6%82%E5%BF%B5/</link>
+    <pubDate>Fri, 10 Apr 2020 14:13:06 &#43;0000</pubDate>
     <author></author>
-    <guid>https://yang419.com/theme-documentation-basics/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/theme-documentation-basics/featured-image.jpg" referrerpolicy="no-referrer">
-            </div><p>探索 Hugo - <strong>LoveIt</strong> 主题的全部内容和背后的核心概念.</p>]]></description>
+    <guid>https://yang419.com/java%E5%8F%8D%E5%B0%84%E7%AE%80%E5%8D%95%E6%A6%82%E5%BF%B5/</guid>
+    <description><![CDATA[反射，就是通过Class文件对象，获取该文件中的成员变量，构造方法，成员方法 要想这样使用，先要得到Class文件对象 Class类： ​ 成员变量]]></description>
 </item><item>
-    <title>主题文档 - 内容</title>
-    <link>https://yang419.com/theme-documentation-content/</link>
-    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
+    <title> ! [rejected]        develop -&gt; develop (fetch first)解决办法</title>
+    <link>https://yang419.com/rejected-develop-develop-fetch-first-%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
+    <pubDate>Wed, 08 Apr 2020 14:00:00 &#43;0000</pubDate>
     <author></author>
-    <guid>https://yang419.com/theme-documentation-content/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/theme-documentation-content/featured-image.jpg" referrerpolicy="no-referrer">
-            </div><p>了解如何在 <strong>LoveIt</strong> 主题中快速, 直观地创建和组织内容.</p>]]></description>
+    <guid>https://yang419.com/rejected-develop-develop-fetch-first-%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
+    <description><![CDATA[1、git pull origin master --allow-unrelated-histories //把远程仓库和本地同步，消除差异 2、重新add和commit相应文件 3、git push origin develop 4、此时就能够上传成功了]]></description>
 </item><item>
-    <title>主题文档 - 内置 Shortcodes</title>
-    <link>https://yang419.com/theme-documentation-built-in-shortcodes/</link>
-    <pubDate>Wed, 04 Mar 2020 16:29:59 &#43;0800</pubDate>
+    <title>How to Write Usefully</title>
+    <link>https://yang419.com/how-to-write-usefully/</link>
+    <pubDate>Wed, 08 Apr 2020 14:00:00 &#43;0000</pubDate>
     <author></author>
-    <guid>https://yang419.com/theme-documentation-built-in-shortcodes/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/theme-documentation-built-in-shortcodes/featured-image.png" referrerpolicy="no-referrer">
-            </div><p><strong>Hugo</strong> 提供了多个内置的 Shortcodes, 以方便作者保持 Markdown 内容的整洁.</p>]]></description>
+    <guid>https://yang419.com/how-to-write-usefully/</guid>
+    <description><![CDATA[什么样的Essay算一篇好Essay，很多人说具有说服力就算一篇好Essay，对此Paulhttp://www.paulgraham.com]]></description>
 </item><item>
-    <title>主题文档 - 扩展 Shortcodes</title>
-    <link>https://yang419.com/theme-documentation-extended-shortcodes/</link>
-    <pubDate>Tue, 03 Mar 2020 16:29:59 &#43;0800</pubDate>
+    <title>EnglishPod</title>
+    <link>https://yang419.com/englishpod/</link>
+    <pubDate>Sat, 29 Feb 2020 15:09:36 &#43;0000</pubDate>
     <author></author>
-    <guid>https://yang419.com/theme-documentation-extended-shortcodes/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/theme-documentation-extended-shortcodes/featured-image.jpg" referrerpolicy="no-referrer">
-            </div><p><strong>LoveIt</strong> 主题在 Hugo 内置的 shortcode 的基础上提供多个扩展的 shortcode.</p>]]></description>
+    <guid>https://yang419.com/englishpod/</guid>
+    <description><![CDATA[听力文本 Elementary ‐ Difficult Customer (B0001) A: Good evening. My name is Fabio, I’ll be your waiter for tonight. May I take your order? B: No, I’m still working on it. This menu is not even in English. What’s good here? A: For you sir, I would recommend spaghetti and meatballs. B: Does it come with coke]]></description>
 </item><item>
-    <title>Markdown 基本语法</title>
-    <link>https://yang419.com/basic-markdown-syntax/</link>
-    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <title>算法和递归</title>
+    <link>https://yang419.com/suan-fa-he-di-gui/</link>
+    <pubDate>Wed, 26 Feb 2020 09:48:57 &#43;0000</pubDate>
     <author></author>
-    <guid>https://yang419.com/basic-markdown-syntax/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
-            </div><p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.</p>]]></description>
+    <guid>https://yang419.com/suan-fa-he-di-gui/</guid>
+    <description><![CDATA[算法 冒泡排序（bubble） 冒泡排序(Bubble Sorting)的基本思想是:通过对待排序序列从前向后(从下标较小的元素开始),依次比较 相]]></description>
 </item><item>
-    <title>Emoji 支持</title>
-    <link>https://yang419.com/emoji-support/</link>
-    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
+    <title>爬取豆瓣《功夫》短评，并清洗数据</title>
+    <link>https://yang419.com/pa-qu-dou-ban-lesslessgong-fu-greatergreater-duan-ping-bing-qing-xi-shu-ju/</link>
+    <pubDate>Wed, 05 Feb 2020 21:36:17 &#43;0000</pubDate>
     <author></author>
-    <guid>https://yang419.com/emoji-support/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/emoji-support/featured-image.jpg" referrerpolicy="no-referrer">
-            </div><p>Emoji 可以通过多种方式在 Hugo 项目中启用.</p>]]></description>
+    <guid>https://yang419.com/pa-qu-dou-ban-lesslessgong-fu-greatergreater-duan-ping-bing-qing-xi-shu-ju/</guid>
+    <description><![CDATA[爬取豆瓣《功夫》短评，并清洗数据 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54]]></description>
+</item><item>
+    <title>马华灵：如何写作读书笔记：致一位学生的邮件</title>
+    <link>https://yang419.com/ma-hua-ling-ru-he-xie-zuo-du-shu-bi-ji-zhi-yi-wei-xue-sheng-de-you-jian/</link>
+    <pubDate>Sat, 01 Feb 2020 16:12:59 &#43;0000</pubDate>
+    <author></author>
+    <guid>https://yang419.com/ma-hua-ling-ru-he-xie-zuo-du-shu-bi-ji-zhi-yi-wei-xue-sheng-de-you-jian/</guid>
+    <description><![CDATA[作者：大清国的猫托邦（来自豆瓣） 来源：https://www.douban.com/note/645895227/ 按：前几日收到一位学生的《]]></description>
+</item><item>
+    <title>关于昨晚豆友给武汉捐款可看小视频事件的看法</title>
+    <link>https://yang419.com/guan-yu-zuo-wan-dou-you-gei-wu-han-juan-kuan-ke-kan-xiao-shi-pin-shi-jian-de-kan-fa/</link>
+    <pubDate>Wed, 29 Jan 2020 07:36:09 &#43;0000</pubDate>
+    <author></author>
+    <guid>https://yang419.com/guan-yu-zuo-wan-dou-you-gei-wu-han-juan-kuan-ke-kan-xiao-shi-pin-shi-jian-de-kan-fa/</guid>
+    <description><![CDATA[个人是非常支持这种行为的 即给灾区人民送去了温暖，又给寂寞男女提供了精神食量，这他妈才是真正的共产主义精神啊！]]></description>
+</item><item>
+    <title>《土拨鼠之日》观后感</title>
+    <link>https://yang419.com/lesslesstu-bo-shu-zhi-ri-greatergreater-guan-hou-gan/</link>
+    <pubDate>Wed, 29 Jan 2020 06:16:29 &#43;0000</pubDate>
+    <author></author>
+    <guid>https://yang419.com/lesslesstu-bo-shu-zhi-ri-greatergreater-guan-hou-gan/</guid>
+    <description><![CDATA[土拨鼠之日，时间循环电影的鼻祖 电影的故事跟简单，讲的是一名天气预报员（phil）来到一个小镇做一个关于这个小镇独特的节日&mdash;土拨鼠]]></description>
+</item><item>
+    <title>Lambda</title>
+    <link>https://yang419.com/lambda/</link>
+    <pubDate>Tue, 21 Jan 2020 19:10:37 &#43;0000</pubDate>
+    <author></author>
+    <guid>https://yang419.com/lambda/</guid>
+    <description><![CDATA[Hello Lambda 普通方法 使用一个普通方法，在for循环遍历中进行条件判断筛选出满足条件的数据 hp&gt;100 &amp;&amp; damage&lt;50 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27]]></description>
 </item></channel>
 </rss>

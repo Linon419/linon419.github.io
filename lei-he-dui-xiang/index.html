@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>类和对象 - Yang&#39;s Blog</title>
+        <meta name="Description" content="探索世界的好奇心万岁"><meta property="og:title" content="类和对象" />
+<meta property="og:description" content="类：是一种相关行为和属性的集合，可以看成一类事物的模版，使用事物属性和行为描述该类 类和对象对比 类 类：是一种相关行为和属性的集合，可以看成一类" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yang419.com/lei-he-dui-xiang/" />
+<meta property="og:image" content="https://yang419.com/logo.png"/>
+<meta property="article:published_time" content="2020-01-03T19:34:07+00:00" />
+<meta property="article:modified_time" content="2020-05-10T10:53:40+10:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://yang419.com/logo.png"/>
+
+<meta name="twitter:title" content="类和对象"/>
+<meta name="twitter:description" content="类：是一种相关行为和属性的集合，可以看成一类事物的模版，使用事物属性和行为描述该类 类和对象对比 类 类：是一种相关行为和属性的集合，可以看成一类"/>
+<meta name="application-name" content="Yang&#39;s blog">
+<meta name="apple-mobile-web-app-title" content="Yang&#39;s blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://yang419.com/lei-he-dui-xiang/" /><link rel="prev" href="https://yang419.com/ju-bu-bian-liang-he-cheng-yuan-bian-liang/" /><link rel="next" href="https://yang419.com/gou-zao-fang-fa/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.zh-cn.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "类和对象",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/yang419.com\/lei-he-dui-xiang\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/yang419.com\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","keywords": "Java","wordcount":  440 ,
+        "url": "https:\/\/yang419.com\/lei-he-dui-xiang\/","datePublished": "2020-01-03T19:34:07+00:00","dateModified": "2020-05-10T10:53:40+10:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "xxxx",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/yang419.com\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Yang"
+            },"description": ""
+    }
+    </script></head>
+    <body><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Yang&#39;s Blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Yang&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/lei-he-dui-xiang/" selected>简体中文</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="" id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Yang&#39;s Blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Yang&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="" id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/lei-he-dui-xiang/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title"></h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">类和对象</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Yang</a></span>&nbsp;
+                    <span class="post-category"><a href="/categories/java/">
+                                <i class="far fa-folder fa-fw"></i>Java
+                            </a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2020-01-03>2020-01-03</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;</div>
+        </div><div class="details toc" id="toc-static">
+                <div class="details-summary toc-title">
+                    <span></span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#类和对象对比">类和对象对比</a>
+      <ul>
+        <li><a href="#类">类</a></li>
+        <li><a href="#对象">对象</a></li>
+      </ul>
+    </li>
+    <li><a href="#类和对象在java实例">类和对象在Java实例</a></li>
+    <li><a href="#类的使用">类的使用</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>类：是一种相关行为和属性的集合，可以看成一类事物的模版，使用事物属性和行为描述该类</p>
+<!-- more -->
+<h2 id="类和对象对比">类和对象对比</h2>
+<h3 id="类">类</h3>
+<p>类：是一种相关行为和属性的集合，可以看成一类事物的模版，使用事物属性和行为描述该类</p>
+<p>属性：该事物状态信息</p>
+<p>行为：该事物能干什么</p>
+<p>例如：猫</p>
+<p>属性名字，体重，颜色</p>
+<p>行为：走，跑，叫</p>
+<h3 id="对象">对象</h3>
+<p>对象是类的一个实例，必然必备该事物的属性和行为</p>
+<h2 id="类和对象在java实例">类和对象在Java实例</h2>
+<p>类为学生</p>
+<p>成员变量：</p>
+<ol>
+<li>姓名</li>
+<li>年龄</li>
+</ol>
+<p>成员方法：</p>
+<ol>
+<li>吃饭</li>
+<li>睡觉</li>
+<li>做爱</li>
+</ol>
+<p>成员变量在类内，方法外</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Student</span><span class="o">{</span>
+  <span class="n">String</span> <span class="n">name</span><span class="o">;</span>
+  <span class="kt">int</span> <span class="n">age</span><span class="o">;</span>
+  
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">eat</span><span class="o">(){</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;吃饭饭&#34;</span><span class="o">);</span>
+  <span class="o">}</span>
+  
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">sleep</span><span class="o">(){</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;睡觉觉&#34;</span><span class="o">);</span>
+  <span class="o">}</span>
+  
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">sex</span><span class="o">(){</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;做爱爱&#34;</span><span class="o">);</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="类的使用">类的使用</h2>
+<ol>
+<li>导包</li>
+</ol>
+<p>import 包名称.类名称；</p>
+<ol start="2">
+<li>创建</li>
+</ol>
+<p>类名称 对象名 = new 类名称();</p>
+<p>Student stu = new Student();</p>
+<ol start="3">
+<li>使用</li>
+</ol>
+<p>使用成员变量：对象名.成员变量名</p>
+<p>使用成员方法：对象名.成员方法名();</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">DemoStudent</span><span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">){</span>
+    <span class="n">Student</span> <span class="n">stu</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Student</span><span class="o">();</span>
+    
+    <span class="n">stu</span><span class="o">.</span><span class="na">age</span> <span class="o">=</span> <span class="n">18</span><span class="o">;</span>
+    <span class="n">stu</span><span class="o">.</span><span class="na">sex</span><span class="o">();</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>%!(EXTRA string=2020-05-10)&nbsp;<a class="git-hash" href="https://github.com/dillonzq/LoveIt/commit/2abd124c73a2305c04e801fb5cc65f3a67994cac" target="_blank" title="commit by Linon419(lzlyvip@gmail.com) 2abd124c73a2305c04e801fb5cc65f3a67994cac: rebuilding site Sun May 10 10:53:40 AEST 2020">
+                                <i class="fas fa-hashtag fa-fw"></i>2abd124</a></span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/lei-he-dui-xiang/index.md" target="_blank"></a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title=" Twitter" data-sharer="twitter" data-url="https://yang419.com/lei-he-dui-xiang/" data-title="类和对象" data-hashtags="Java"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title=" Facebook" data-sharer="facebook" data-url="https://yang419.com/lei-he-dui-xiang/" data-hashtag="Java"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title=" WhatsApp" data-sharer="whatsapp" data-url="https://yang419.com/lei-he-dui-xiang/" data-title="类和对象" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title=" Line" data-sharer="line" data-url="https://yang419.com/lei-he-dui-xiang/" data-title="类和对象"><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title=" 微博" data-sharer="weibo" data-url="https://yang419.com/lei-he-dui-xiang/" data-title="类和对象" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title=" Myspace" data-sharer="myspace" data-url="https://yang419.com/lei-he-dui-xiang/" data-title="类和对象" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title=" Blogger" data-sharer="blogger" data-url="https://yang419.com/lei-he-dui-xiang/" data-title="类和对象" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title=" Evernote" data-sharer="evernote" data-url="https://yang419.com/lei-he-dui-xiang/" data-title="类和对象"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/java/">Java</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();"></a></span>&nbsp;|&nbsp;<span><a href="/"></a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/ju-bu-bian-liang-he-cheng-yuan-bian-liang/" class="prev" rel="prev" title="局部变量和成员变量"><i class="fas fa-angle-left fa-fw"></i>局部变量和成员变量</a>
+            <a href="/gou-zao-fang-fa/" class="next" rel="next" title="构造方法">构造方法<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="gitalk" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://github.com/gitalk/gitalk"></a>Gitalk</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">%!(EXTRA string=<a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.68.3">Hugo</a>) |  - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.6"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Yang</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.css"><script type="text/javascript">
+    window.config = {"code":{"copyTitle":"","maxShownLines":10},"comment":{"gitalk":{"admin":["Linon419"],"clientID":"aaf5f9533adc0dca3acc","clientSecret":"2f6dfba3b1c4bd93872985c401b4e7f4fce5651b","id":"2020-01-03T19:34:07Z","owner":"Linon419","repo":"linon419.github.io","title":"类和对象"}},"headerMode":{"desktop":"fixed","mobile":"auto"},"search":{"algoliaAppID":"G5ZHN05DPH","algoliaIndex":"index.zh-cn","algoliaSearchKey":"16c24bbcf1b73f4d032d452ee2681b9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"","snippetLength":50,"type":"algolia"}};
+</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=html5shiv%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script src="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.min.js"></script><script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.2/dist/smooth-scroll.polyfills.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
