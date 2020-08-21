@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>JavaScript高级程序设计笔记</title>
-      <link>https://yang419.com/posts/noteofjavascript/</link>
-      <pubDate>Sun, 26 Apr 2020 14:00:00 +0000</pubDate>
-      
-      <guid>https://yang419.com/posts/noteofjavascript/</guid>
-      <description>第1章 JavaScript简介 JavaScript是一种专门为与网页交互而设计的脚本语言，由三个不同的部分组成 ECMAscript,由ECM</description>
-    </item>
-    
-    <item>
       <title>Java反射简单概念</title>
       <link>https://yang419.com/posts/java%E5%8F%8D%E5%B0%84%E7%AE%80%E5%8D%95%E6%A6%82%E5%BF%B5/</link>
       <pubDate>Fri, 10 Apr 2020 14:13:06 +0000</pubDate>
@@ -264,15 +255,6 @@
       
       <guid>https://yang419.com/posts/inheritance/</guid>
       <description>&lt;p&gt;When you inherit from an existing class, you reuse its method, and you can add new method and fields to adapt your new class to new situations.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yang419.com/posts/%E8%AF%BE%E7%A8%8B%E8%AE%A1%E5%88%922020s1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yang419.com/posts/%E8%AF%BE%E7%A8%8B%E8%AE%A1%E5%88%922020s1/</guid>
-      <description>基础 优势 既然已经有了tomcat这样的基于 java 的服务器，为什么还要有 node.js 呢？ node.js 上的应用可以使用 javascript 开发，这样方便前端人员 node.js 的 I/O 操作是非阻塞式的，比</description>
     </item>
     
   </channel>
