@@ -29,7 +29,9 @@
         "categories": [
             "前端"
         ],
-        "toc": true
+        "toc": true,
+        "published": true,
+        "hideInList": false
     },
     {
         "title": "多态",
