@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on Yang&#39;s Blog</title>
+    <link>https://yang419.com/tags/html/</link>
+    <description>Recent content in HTML on Yang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://yang419.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HTML DOM 笔记</title>
+      <link>https://yang419.com/posts/html-dom/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/html-dom/</guid>
+      <description>节点概念 DOM 是Document Object Model( 文档对象模型 )的缩写。 DOM是把html里面的各种数据当作对象进行操作的一种思路。 比如一个超链，作为一个DO</description>
+    </item>
+    
+    <item>
+      <title>HTML 笔记</title>
+      <link>https://yang419.com/posts/html/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/html/</guid>
+      <description>概念 html标签 HTML是Hyper Text Markup Language 超文本标记语言 的缩写 HTML是由一套标记标签 （markup tag）组成，通常就叫标签 标签由开始标签</description>
+    </item>
+    
+  </channel>
+</rss>
