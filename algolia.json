@@ -337,6 +337,20 @@
         "isTop": false
     },
     {
+        "title": "JavaScript高级程序设计笔记",
+        "uri": "posts/NoteOfJavaScript",
+        "content": "1  JavaScript   JavaScript                               ECMAscript  ECMA 262                 DOM                            BOM                  2   HTML   JavaScript 2 1     HTML   JavaScript                                  defer async                                 defer                          defer                      async                  3       3 1                                _                                                                            use strict   3 2         3 3    EMCAScript                        3 4      5        Undefined  Null  Boolean  Number  String          Object typeof       var message    some   alert  typeof message      String  alert  typeof  messge       String                alert  typeof 95      number  alert  typeof function     function       alert  typeof object        null Boolean           boolean      Boolean",
+        "objectID": "posts/NoteOfJavaScript",
+        "date": "2020-04-26T14:00:00.000Z",
+        "tags": [
+            "JavaScript"
+        ],
+        "categories": [
+            "前端"
+        ],
+        "toc": true
+    },
+    {
         "title": "爬取豆瓣《功夫》短评，并清洗数据",
         "uri": "posts/pa-qu-dou-ban-lesslessgong-fu-greatergreater-duan-ping-bing-qing-xi-shu-ju",
         "content": "import os import re import time import random lxml import etree import requests import jieba import numpy np PIL import Image import matplotlib pyplot plt wordcloud import WordCloud   Session       Cookie s   requests Session            COMMENTSFILEPATH    douban_comments txt       WCFONTPATH     Library Fonts Songti ttc  def login_douban              return        URL login_url    https   accounts douban com j mobile login basic      headers     user agent    Mozilla 5 0    Referer    https   accounts douban com passport login source main            data     name            password            remember    false   try  r   s post login_url  headers headers  data data  r raiseforstatus   except  print           return 0        print r text  return 1 def spider_comment page 0               param page        return      print        d     int page   start   int page   20  commenturl    https   movie douban com subject 1905462 comments start  d limit 20 sort newscore status P    start     headers     user agent    Mozilla 5 0   try  r   s get comment_url  headers headers  r raiseforstatus   except  print    d           page  return 0 result   etree HTML r text  comment   result xpath    span  class    short   text     not comments  return 0      open COMMENTSFILEPATH   a    encoding r encoding  file  file writelines   n  join comments   return 1 def batchspidercomment                  return                    os path exists COMMENTSFILEPATH   os remove COMMENTSFILEPATH  page   0 spider_comment page   page    1                   ip   time sleep random random     3  print         def cut_word               return             open COMMENTSFILEPATH  file  comment_txt   file read   wordlist   jieba cut commenttxt  cutall True  wl       join wordlist  print wl  return wl def createwordcloud              return               wcmask   np array Image open WCMASK_IMG           stop_words                                                                                                 wc   WordCloud backgroundcolor  white   maxwords 50  scale 4  maxfontsize 50  randomstate 42  stopwords stopwords  fontpath WCFONT_PATH       wc generate cut_word        mask                      plt imshow wc  interpolation  bilinear   plt axis  off   plt figure   plt show   name     main           login_douban      spider_comment 30  batchspidercomment   createwordcloud",
