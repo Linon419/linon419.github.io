@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 14:13:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 14:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yang419.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaScript高级程序设计笔记</title>
+      <link>https://yang419.com/posts/noteofjavascript/</link>
+      <pubDate>Sun, 26 Apr 2020 14:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/noteofjavascript/</guid>
+      <description>第1章 JavaScript简介 JavaScript是一种专门为与网页交互而设计的脚本语言，由三个不同的部分组成 ECMAscript,由ECM</description>
+    </item>
     
     <item>
       <title>Java反射简单概念</title>
@@ -246,6 +255,69 @@
       
       <guid>https://yang419.com/posts/inheritance/</guid>
       <description>&lt;p&gt;When you inherit from an existing class, you reuse its method, and you can add new method and fields to adapt your new class to new situations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yang419.com/posts/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/css/</guid>
+      <description>基础 css语法 css的语法 selector {property: value} 即 选择器{属性:值} 学习css即学习有哪些选择器，哪些属性以及可以使用什么样的值 选择所有p元素 1 2 3 4 5 6 7</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yang419.com/posts/html-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/html-dom/</guid>
+      <description>节点概念 DOM 是Document Object Model( 文档对象模型 )的缩写。 DOM是把html里面的各种数据当作对象进行操作的一种思路。 比如一个超链，作为一个DO</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yang419.com/posts/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/html/</guid>
+      <description>概念 html标签 HTML是Hyper Text Markup Language 超文本标记语言 的缩写 HTML是由一套标记标签 （markup tag）组成，通常就叫标签 标签由开始标签</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yang419.com/posts/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/javascript/</guid>
+      <description>语言基础 Hello Javascript 通过javascript向文档中输出文本 document是javascript的内置对象，代表浏览器的文档部分 document.write(&amp;ldquo;Hello Javascript&amp;rdquo;); 向文档写入字符</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yang419.com/posts/jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/jquery/</guid>
+      <description>常见方法 关键字 简介 示例代码 val 取值 示例代码 html 获取元素内容,如果有子元素，保留标签 示例代码 text 获取元素内容,如果有子元素，不包含子元素标签 取值 1 2</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yang419.com/posts/json/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/json/</guid>
+      <description>Hello JSON JSON JavaScript 对象表示法（JavaScript Object Notation） 是一种存储数据的方式。 创建json对象 1 2 3 4 5 6 var gareen = {&amp;#34;name&amp;#</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yang419.com/posts/%E8%AF%BE%E7%A8%8B%E8%AE%A1%E5%88%922020s1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/%E8%AF%BE%E7%A8%8B%E8%AE%A1%E5%88%922020s1/</guid>
+      <description>基础 优势 既然已经有了tomcat这样的基于 java 的服务器，为什么还要有 node.js 呢？ node.js 上的应用可以使用 javascript 开发，这样方便前端人员 node.js 的 I/O 操作是非阻塞式的，比</description>
     </item>
     
   </channel>

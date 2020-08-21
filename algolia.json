@@ -441,6 +441,20 @@
         "isTop": false
     },
     {
+        "title": "JavaScript高级程序设计笔记",
+        "uri": "posts/前端/NoteOfJavaScript",
+        "content": "1  JavaScript   JavaScript                               ECMAscript  ECMA 262                 DOM                            BOM                  2   HTML   JavaScript 2 1     HTML   JavaScript                                  defer async                                 defer                          defer                      async                  3       3 1                                _                                                                            use strict   3 2         3 3    EMCAScript                        3 4      5        Undefined  Null  Boolean  Number  String          Object typeof       var message    some   alert  typeof message      String  alert  typeof  messge       String                alert  typeof 95      number  alert  typeof function     function       alert  typeof object        null Boolean           boolean      Boolean",
+        "objectID": "posts/前端/NoteOfJavaScript",
+        "date": "2020-04-26T14:00:00.000Z",
+        "tags": [
+            "JavaScript"
+        ],
+        "categories": [
+            "前端"
+        ],
+        "toc": true
+    },
+    {
         "title": "正则表达式",
         "uri": "posts/正则表达式",
         "content": "w             s          d      b                               eg   ba w b     a                   b        a                w            b w 6  b  6        d   1                              1       0      d 5 12   5 12                  eg  yang419  com  yang419 com     0             0  1   n   n   n  n  n m n   m      aeiou                         or or          0 d 2     d 8      010 88886666  022 22334455  02912345678                                                 0 d 2   d 8  0 d 2      d 8             1       8     2      7                      d 1 3     3  d 1 3   d 1 3      1 3      d 1 3     3  1 3                        W                        S              D             B                      x          aeiou",
