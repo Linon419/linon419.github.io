@@ -268,15 +268,6 @@
     
     <item>
       <title></title>
-      <link>https://yang419.com/posts/css/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yang419.com/posts/css/</guid>
-      <description>基础 css语法 css的语法 selector {property: value} 即 选择器{属性:值} 学习css即学习有哪些选择器，哪些属性以及可以使用什么样的值 选择所有p元素 1 2 3 4 5 6 7</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://yang419.com/posts/html-dom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
