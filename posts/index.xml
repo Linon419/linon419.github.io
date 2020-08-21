@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 26 Apr 2020 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yang419.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CSS 笔记</title>
+      <link>https://yang419.com/posts/css/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang419.com/posts/css/</guid>
+      <description>基础 css语法 css的语法 selector {property: value} 即 选择器{属性:值} 学习css即学习有哪些选择器，哪些属性以及可以使用什么样的值 选择所有p元素 1 2 3 4 5 6 7</description>
+    </item>
     
     <item>
       <title>JavaScript高级程序设计笔记</title>
