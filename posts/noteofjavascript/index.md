@@ -1,4 +1,4 @@
-# JavaScript高级程序设计笔记
+# JavaScript高级程序设计读书笔记
 
 
 ## 第1章 JavaScript简介
