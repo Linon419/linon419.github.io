@@ -3,7 +3,14 @@
         <title>所有文章 - Yang&#39;s Blog</title>
         <link>https://yang419.com/posts/</link>
         <description>所有文章 | Yang&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 21 Aug 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://yang419.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 03 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://yang419.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>JavaScript高级程序设计笔记</title>
+    <link>https://yang419.com/posts/noteofjavascript/</link>
+    <pubDate>Wed, 03 Mar 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://yang419.com/posts/noteofjavascript/</guid>
+    <description><![CDATA[第1章 JavaScript简介 JavaScript是一种专门为与网页交互而设计的脚本语言，由三个不同的部分组成 ECMAscript,由ECM]]></description>
+</item><item>
     <title>CSS 笔记</title>
     <link>https://yang419.com/posts/css/</link>
     <pubDate>Fri, 21 Aug 2020 00:00:00 &#43;0000</pubDate>
@@ -66,12 +73,5 @@
     <author>作者</author>
     <guid>https://yang419.com/posts/how-to-write-usefully/</guid>
     <description><![CDATA[什么样的Essay算一篇好Essay，很多人说具有说服力就算一篇好Essay，对此Paulhttp://www.paulgraham.com]]></description>
-</item><item>
-    <title>EnglishPod</title>
-    <link>https://yang419.com/posts/englishpod/</link>
-    <pubDate>Sat, 29 Feb 2020 15:09:36 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://yang419.com/posts/englishpod/</guid>
-    <description><![CDATA[听力文本 Elementary ‐ Difficult Customer (B0001) A: Good evening. My name is Fabio, I’ll be your waiter for tonight. May I take your order? B: No, I’m still working on it. This menu is not even in English. What’s good here? A: For you sir, I would recommend spaghetti and meatballs. B: Does it come with coke]]></description>
 </item></channel>
 </rss>
