@@ -1,25 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>JavaScript on Yang&#39;s Blog</title>
-    <link>https://yang419.com/tags/javascript/</link>
-    <description>Recent content in JavaScript on Yang&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 26 Apr 2020 14:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://yang419.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>JavaScript高级程序设计笔记</title>
-      <link>https://yang419.com/posts/noteofjavascript/</link>
-      <pubDate>Sun, 26 Apr 2020 14:00:00 +0000</pubDate>
-      
-      <guid>https://yang419.com/posts/noteofjavascript/</guid>
-      <description>第1章 JavaScript简介 JavaScript是一种专门为与网页交互而设计的脚本语言，由三个不同的部分组成 ECMAscript,由ECM</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>JavaScript - 标签 - Yang&#39;s Blog</title>
+        <link>https://yang419.com/tags/javascript/</link>
+        <description>JavaScript - 标签 - Yang&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 26 Apr 2020 14:00:00 &#43;0000</lastBuildDate><atom:link href="https://yang419.com/tags/javascript/" rel="self" type="application/rss+xml" /><item>
+    <title>JavaScript高级程序设计笔记</title>
+    <link>https://yang419.com/posts/noteofjavascript/</link>
+    <pubDate>Sun, 26 Apr 2020 14:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://yang419.com/posts/noteofjavascript/</guid>
+    <description><![CDATA[第1章 JavaScript简介 JavaScript是一种专门为与网页交互而设计的脚本语言，由三个不同的部分组成 ECMAscript,由ECM]]></description>
+</item></channel>
 </rss>

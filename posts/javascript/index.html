@@ -5,8 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>JS 笔记 | Yang&#39;s Blog</title>
-        <meta name="Description" content="探索世界的好奇心万岁"><meta property="og:title" content="JS 笔记" />
+        <title>JS 笔记 - Yang&#39;s Blog</title><meta name="Description" content="探索世界的好奇心万岁"><meta property="og:title" content="JS 笔记" />
 <meta property="og:description" content="语言基础 Hello Javascript 通过javascript向文档中输出文本 document是javascript的内置对象，代表浏览器的文档部分 document.write(&ldquo;Hello Javascript&rdquo;); 向文档写入字符" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yang419.com/posts/javascript/" />
@@ -15,30 +14,10 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="JS 笔记"/>
 <meta name="twitter:description" content="语言基础 Hello Javascript 通过javascript向文档中输出文本 document是javascript的内置对象，代表浏览器的文档部分 document.write(&ldquo;Hello Javascript&rdquo;); 向文档写入字符"/>
-<meta name="theme-color" content="#ffffff">
-<meta name="msapplication-TileColor" content="#da532c">
-<link rel="stylesheet" href="/css/search.min.css">
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.0.0/dist/jquery.min.js"></script>
-
-
-<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.1/jquery.modal.min.js"></script>
-
-<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/algoliasearch.min.js"></script>
-<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/autocomplete.min.js"></script>
-
-
- 
-<script src= "/js/search.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.1/jquery.modal.min.css" />
-
-<link rel="canonical" href="https://yang419.com/posts/javascript/" />
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="prev" href="https://yang419.com/posts/json/" /><link rel="next" href="https://yang419.com/posts/jquery/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
+<meta name="application-name" content="Yang&#39;s Blog">
+<meta name="apple-mobile-web-app-title" content="Yang&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://yang419.com/posts/javascript/" /><link rel="prev" href="https://yang419.com/posts/json/" /><link rel="next" href="https://yang419.com/posts/jquery/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -47,94 +26,93 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/yang419.com\/posts\/javascript\/"
-        },"image": {
-                "@type": "ImageObject",
-                "url": "https:\/\/yang419.com\/cover.png",
-                "width":  800 ,
-                "height":  600 
-            },"genre": "posts","keywords": "JS","wordcount":  17995 ,
-        "url": "https:\/\/yang419.com\/posts\/javascript\/","datePublished": "2020-08-21","dateModified": "2020-08-21","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
-                "@type": "Organization",
-                "name": "xxxx",
-                "logo": {
-                "@type": "ImageObject",
-                "url": "https:\/\/yang419.com\/logo.png",
-                "width":  127 ,
-                "height":  40 
-                }
-            },"author": {
+        },"genre": "posts","keywords": "JS","wordcount":  17995 ,
+        "url": "https:\/\/yang419.com\/posts\/javascript\/","datePublished": "2020-08-21T00:00:00+00:00","dateModified": "2020-08-21T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
                 "@type": "Person",
                 "name": "Yang"
             },"description": ""
     }
     </script></head>
-    <body><script>
-            if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;} else {
-                window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
-            }
-            window.isDark && document.body.classList.add('dark-theme');
-        </script><div class="wrapper"><header class="desktop" id="header-desktop">
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/">Yang&#39;s Blog</a>
+            <a href="/" title="Yang&#39;s Blog">Yang&#39;s Blog</a>
         </div>
-        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" rel="noopener noreffer">分类</a><a class="menu-item" href="/about/" rel="noopener noreffer">关于</a>
-            <a href="#ex1" rel="modal:open"><i class="fas fa-search fa-fw"></i></a>
-            
-                       <span class="menu-item">|</span>
-            <a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                <i class="fas fa-adjust fa-fw"></i>
-            </a>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
         </div>
     </div>
 </header><header class="mobile" id="header-mobile">
-    <div class="header-wrapper">
-        <div class="header-container">
+    <div class="header-container">
+        <div class="header-wrapper">
             <div class="header-title">
-                <a href="/">Yang&#39;s Blog</a>
+                <a href="/" title="Yang&#39;s Blog">Yang&#39;s Blog</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" title="" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" title="" rel="noopener noreffer">分类</a><a class="menu-item" href="/about/" title="" rel="noopener noreffer">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                 <i class="fas fa-adjust fa-fw"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/posts/javascript/" selected>简体中文</option></select>
-                </a>
-            <a href="#ex1" rel="modal:open"><i class="fas fa-search fa-fw"></i></a>
-            
+            </a>
+           
         </div>
     </div>
 </header>
-
-<script>
-    window.desktopHeaderMode = "fixed";
-    window.mobileHeaderMode = "auto";
-</script>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
 <main class="main">
-                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">JS 笔记</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Yang</a>
-</span>&nbsp;
-                    <span class="post-category">收录于<a href="/categories/%E5%89%8D%E7%AB%AF">
-                                <i class="far fa-folder fa-fw"></i>前端
-                            </a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2020-08-21>2020-08-21</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>约 17995 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>预计阅读 36 分钟&nbsp;</div>
-        </div><div class="toc" id="toc-auto">
-                <h2 class="toc-title">目录</h2>
-                <div class="toc-content" id="toc-content-auto"></div>
-            </div>
-            <div class="toc" id="toc-static">
-                <details>
-                    <summary>
-                        <div class="toc-title">
-                            <span>目录</span>
-                            <span><i class="details icon fas fa-angle-down"></i></span>
-                        </div>
-                    </summary>
-                    <div class="toc-content" id="toc-content-static"><nav id="TableOfContents">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">JS 笔记</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Yang</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%89%8D%E7%AB%AF/"><i class="far fa-folder fa-fw"></i>前端</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-21">2020-08-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 17995 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 36 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#hello-javascript">Hello Javascript</a>
       <ul>
@@ -311,7 +289,6 @@
     </li>
   </ul>
 </nav></div>
-                </details>
             </div><div class="content" id="content"><h1 id="语言基础">语言基础</h1>
 <h2 id="hello-javascript">Hello Javascript</h2>
 <h3 id="通过javascript向文档中输出文本">通过javascript向文档中输出文本</h3>
@@ -335,8 +312,7 @@
 <strong>document.getElementById</strong> 根据id获取指定的元素
 <strong>.style.display='none&rsquo;</strong> 隐藏
 <strong>.style.display='block&rsquo;</strong> 显示(准确的讲，以block的形式显示)</p>
-<p>onclick，getElementById，style.display 这些内容，是<a href="https://how2j.cn/k/dom/dom-node/457.html" target="_blank" rel="noopener noreffer">HTML DOM</a>
- 应该到才会用到的知识和概念</p>
+<p>onclick，getElementById，style.display 这些内容，是<a href="https://how2j.cn/k/dom/dom-node/457.html" target="_blank" rel="noopener noreffer">HTML DOM</a> 应该到才会用到的知识和概念</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -354,12 +330,8 @@
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="语言基础bom和dom">语言基础，BOM和DOM</h3>
-<p>完整的javascript由<a href="https://how2j.cn/k/javascript/javascript-type/428.html" target="_blank" rel="noopener noreffer">语言基础</a>
-，<a href="https://how2j.cn/k/javascript/javascript-bom-window/449.html" target="_blank" rel="noopener noreffer">BOM</a>
-和<a href="https://how2j.cn/k/dom/dom-node/457.html" target="_blank" rel="noopener noreffer">DOM</a>
-组成。</p>
-<p>只有通过javascript操作DOM对象的时候，才会带来很好的实用效果，而本章节只会涉及到语言基础 和 BOM部分，DOM部分在<a href="https://how2j.cn/k/dom/dom-node/457.html" target="_blank" rel="noopener noreffer">下个章节</a>
-展开</p>
+<p>完整的javascript由<a href="https://how2j.cn/k/javascript/javascript-type/428.html" target="_blank" rel="noopener noreffer">语言基础</a>，<a href="https://how2j.cn/k/javascript/javascript-bom-window/449.html" target="_blank" rel="noopener noreffer">BOM</a>和<a href="https://how2j.cn/k/dom/dom-node/457.html" target="_blank" rel="noopener noreffer">DOM</a>组成。</p>
+<p>只有通过javascript操作DOM对象的时候，才会带来很好的实用效果，而本章节只会涉及到语言基础 和 BOM部分，DOM部分在<a href="https://how2j.cn/k/dom/dom-node/457.html" target="_blank" rel="noopener noreffer">下个章节</a>展开</p>
 <h2 id="script标签">script标签</h2>
 <p>javascript代码必须放在script标签中</p>
 <p>script标签可以放在html的任何地方，一般建议放在head标签里</p>
@@ -409,10 +381,8 @@
 </div>
 </div><h3 id="使用外部js文件">使用外部js文件</h3>
 <p>和css一样，当javascript代码特别多，并且都写在html里的时候，会显得比较繁杂，难以维护。
-这个时候可以<a href="https://how2j.cn/k/css2/css2-link/255.html#step496" target="_blank" rel="noopener noreffer">采用和css一样的手段</a>
-，把javascript代码剥离出来，单独放在一个文件里，在html中引用该文件即可。
-准备一个<a href="https://how2j.cn/study/hello.js" target="_blank" rel="noopener noreffer">hello.js</a>
-，里面的是内容是
+这个时候可以<a href="https://how2j.cn/k/css2/css2-link/255.html#step496" target="_blank" rel="noopener noreffer">采用和css一样的手段</a>，把javascript代码剥离出来，单独放在一个文件里，在html中引用该文件即可。
+准备一个<a href="https://how2j.cn/study/hello.js" target="_blank" rel="noopener noreffer">hello.js</a>，里面的是内容是
 document.write(&ldquo;hello javascript &ldquo;);
 <strong>注意，不要写 script标签</strong></p>
 <div class="highlight"><div class="chroma">
@@ -477,7 +447,6 @@ document.write("hello java");
 </div>
 </div><h3 id="变量命名">变量命名</h3>
 <p>命名规则和<a href="https://how2j.cn/k/variable/variable-nameing/260.html#step520" target="_blank" rel="noopener noreffer">java差不多</a>
-
 可以使用
 <strong>开头</strong>可以用 _$和字母
 <strong>其他部分</strong>可以用 $ _ 字母或者数字
@@ -511,8 +480,7 @@ var (6@
 </div>
 </div><h2 id="调试">调试</h2>
 <p>Javascript的运行和Java不一样，没有一个像eclipse这样的集成开发环境(IDE)。</p>
-<p>尤其在刚开始学习的时候，更加推荐直接使用记事本来编写，而不是依赖于其他的有提示功能的编辑器(<a href="https://how2j.cn/k/18/18-536/536.html" target="_blank" rel="noopener noreffer">Sublime</a>
-)，这样更加利于暴露自己编写的javascript代码的问题，并纠正和学习。</p>
+<p>尤其在刚开始学习的时候，更加推荐直接使用记事本来编写，而不是依赖于其他的有提示功能的编辑器(<a href="https://how2j.cn/k/18/18-536/536.html" target="_blank" rel="noopener noreffer">Sublime</a>)，这样更加利于暴露自己编写的javascript代码的问题，并纠正和学习。</p>
 <p>但是依然存在一个调试的问题，本知识点只是讲解各种调试的办法。</p>
 <h3 id="alert进行调试">alert进行调试</h3>
 <p>使用alert(1)进行调试，这是最开始的时候非常常用的一种手法来进行javascript代码调试，即使今天，也是比较有效的一种方式。
@@ -547,38 +515,32 @@ var (6@
 <tr>
 <td align="left">undefined</td>
 <td align="left">声明了但未赋值</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1075" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1075" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">Boolean</td>
 <td align="left">布尔</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1076" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1076" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">Number</td>
 <td align="left">数字</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1077" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1077" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">String</td>
 <td align="left">字符串</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1078" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1078" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">var</td>
 <td align="left">动态类型</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1079" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1079" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">typeof</td>
 <td align="left">变量类型判断</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1080" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-type/428.html#step1080" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">null</td>
@@ -759,8 +721,7 @@ var (6@
 赋值为true之后，类型是： boolean
 赋值为hello之后，类型是： string</p>
 <h3 id="空对象对象不存在">空对象/对象不存在</h3>
-<p>null表示一个对象不存在，因为本章节讲的都是基本类型，而null是和对象相关的，所以会放在<a href="https://how2j.cn/k/javascript/javascript-number/438.html" target="_blank" rel="noopener noreffer">javascript中的对象</a>
-中进行讲解</p>
+<p>null表示一个对象不存在，因为本章节讲的都是基本类型，而null是和对象相关的，所以会放在<a href="https://how2j.cn/k/javascript/javascript-number/438.html" target="_blank" rel="noopener noreffer">javascript中的对象</a>中进行讲解</p>
 <h2 id="类型转换">类型转换</h2>
 <h3 id="伪对象">伪对象</h3>
 <p>**伪对象概念：**javascript是一门很有意思的语言，即便是基本类型，也是伪对象，所以他们都有属性和方法。
@@ -1187,8 +1148,7 @@ print("第二句话");
 <p>事件是javascript允许html与用户交互的行为。 用户任何对网页的操作，都会产生一个事件。</p>
 <p>事件有很多种，比如鼠标移动，鼠标点击，键盘点击等等。</p>
 <p>本例演示当一个按钮被点击的时候，弹出一个对话框</p>
-<p>更多的事件，请参考<a href="https://how2j.cn/k/dom/dom-event/464.html" target="_blank" rel="noopener noreffer">HTML DOM 的事件章节</a>
-</p>
+<p>更多的事件，请参考<a href="https://how2j.cn/k/dom/dom-event/464.html" target="_blank" rel="noopener noreffer">HTML DOM 的事件章节</a></p>
 <h3 id="鼠标点击事件">鼠标点击事件</h3>
 <p>首先定义一个函数 showHello，被调用的时候，弹出一个对话框&quot;Hello JavaScript&rdquo;;</p>
 <p>接着准备一个button元素,在button元素上增加一个属性
@@ -1207,20 +1167,17 @@ value是<strong>showHello()</strong>，调用showHello()函数</p>
 <tr>
 <td align="left">+ - * / %</td>
 <td align="left">基本算数运算符</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-arithmetic/433.html#step1099" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-arithmetic/433.html#step1099" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">++ &ndash;</td>
 <td align="left">自增，自减运算符</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-arithmetic/433.html#step1101" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-arithmetic/433.html#step1101" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">= += -= *= /= %=</td>
 <td align="left">赋值运算符</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-arithmetic/433.html#step1100" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-arithmetic/433.html#step1100" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">+</td>
@@ -1269,14 +1226,12 @@ value是<strong>showHello()</strong>，调用showHello()函数</p>
 <tr>
 <td align="left">== != &gt; &gt;= &lt; &lt;=</td>
 <td align="left">基本逻辑运算符</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-logic/434.html#step1103" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-logic/434.html#step1103" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">=== !==</td>
 <td align="left">绝对等，绝对不等于</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-logic/434.html#step1104" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-logic/434.html#step1104" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">?:</td>
@@ -1339,20 +1294,17 @@ age&lt;18?&ldquo;卡通&rdquo;:&ldquo;你懂的&rdquo;
 <tr>
 <td align="left">if</td>
 <td align="left">条件成立时执行</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-condition/435.html#step1106" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-condition/435.html#step1106" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">else</td>
 <td align="left">条件不成立时执行</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-condition/435.html#step1107" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-condition/435.html#step1107" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">else if</td>
 <td align="left">多条件判断 - else if</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-condition/435.html#step1108" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-condition/435.html#step1108" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">switch</td>
@@ -1364,8 +1316,7 @@ age&lt;18?&ldquo;卡通&rdquo;:&ldquo;你懂的&rdquo;
 <p>switch</p>
 <p><strong>switch</strong> 语句与else if一样，也是进行多条件判断的
 需要注意的是，每个判断结束，都要加上<strong>break;</strong>
-本例用到了Date对象，更多的用法，请参考 <a href="https://how2j.cn/k/javascript/javascript-date/440.html" target="_blank" rel="noopener noreffer">javascript 日期对象</a>
-</p>
+本例用到了Date对象，更多的用法，请参考 <a href="https://how2j.cn/k/javascript/javascript-date/440.html" target="_blank" rel="noopener noreffer">javascript 日期对象</a></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1449,32 +1400,27 @@ age&lt;18?&ldquo;卡通&rdquo;:&ldquo;你懂的&rdquo;
 <tr>
 <td align="left">for</td>
 <td align="left">循环语句</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-cycle/436.html#step1110" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-cycle/436.html#step1110" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">while</td>
 <td align="left">循环语句</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-cycle/436.html#step1111" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-cycle/436.html#step1111" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">do-while</td>
 <td align="left">循环语句，至少执行一次</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-cycle/436.html#step1112" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-cycle/436.html#step1112" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">forEach</td>
 <td align="left">增强型循环语句</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-cycle/436.html#step2107" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-cycle/436.html#step2107" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">continue</td>
 <td align="left">继续下一次循环</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-cycle/436.html#step2105" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-cycle/436.html#step2105" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">break</td>
@@ -1576,8 +1522,7 @@ age&lt;18?&ldquo;卡通&rdquo;:&ldquo;你懂的&rdquo;
 <p>JavaScript中的对象是有着属性和方法的一种特殊数据类型。</p>
 <p>常见的对象有数字Number，字符串String，日期Date，数组Array等。</p>
 <p>本章节从数字对象开始讲起</p>
-<p><strong>注:</strong> 这里讲的Number是<strong>对象Number,<strong>和<a href="https://how2j.cn/k/javascript/javascript-type/428.html" target="_blank" rel="noopener noreffer">基本数据类型</a>
-中的</strong>基本类型Number</strong>是不一样的Number。</p>
+<p><strong>注:</strong> 这里讲的Number是<strong>对象Number,<strong>和<a href="https://how2j.cn/k/javascript/javascript-type/428.html" target="_blank" rel="noopener noreffer">基本数据类型</a>中的</strong>基本类型Number</strong>是不一样的Number。</p>
 <table>
 <thead>
 <tr>
@@ -1590,32 +1535,27 @@ age&lt;18?&ldquo;卡通&rdquo;:&ldquo;你懂的&rdquo;
 <tr>
 <td align="left">new Number</td>
 <td align="left">创建一个数字对象</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-number/438.html#step1116" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-number/438.html#step1116" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">属性MIN_VALUE 属性MAX_VALUE</td>
 <td align="left">最小值 最大值</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-number/438.html#step1118" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-number/438.html#step1118" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">属性NaN</td>
 <td align="left">表示不是数字</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-number/438.html#step1122" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-number/438.html#step1122" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法toFixed</td>
 <td align="left">返回一个数字的小数表达</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-number/438.html#step1119" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-number/438.html#step1119" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法toExponential</td>
 <td align="left">返回一个数字的科学计数法表达</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-number/438.html#step1120" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-number/438.html#step1120" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法valueOf</td>
@@ -1856,56 +1796,47 @@ Number对象的最大值:1.7976931348623157e+308</p>
 <tr>
 <td align="left">new String()</td>
 <td align="left">创建字符串对象</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1123" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1123" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">属性 length</td>
 <td align="left">字符串长度</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1124" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1124" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 charAt() charCodeAt</td>
 <td align="left">返回指定位置的字符</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1125" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1125" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 x.concat(y)</td>
 <td align="left">字符串拼接</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1126" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1126" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 indexOf(&quot;&quot;) lastIndexOf(&quot;&quot;)</td>
 <td align="left">子字符串出现的位置</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1127" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1127" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 x.localeCompare(&ldquo;y&rdquo;)</td>
 <td align="left">比较两段字符串是否相同</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1128" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1128" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 substring</td>
 <td align="left">截取一段子字符串,字符串x的值: Hello JavaScript<br/>x.substring (0,3) 获取位0到3的字符串： Hel<br/>左闭右开，取得到0，取不到3</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1129" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1129" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 split</td>
 <td align="left">根据分隔符，把字符串转换为数组</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1205" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1205" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 replace</td>
 <td align="left">替换子字符串</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1814" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-string/439.html#step1814" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 charAt 方法 concat 方法 substring</td>
@@ -2013,94 +1944,81 @@ Number对象的最大值:1.7976931348623157e+308</p>
 <tr>
 <td align="left">new Array</td>
 <td align="left">创建数组对象</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1131" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1131" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">属性 length</td>
 <td align="left">数组长度</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1132" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1132" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">for for in</td>
 <td align="left">遍历一个数组</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1140" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1140" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 concat</td>
 <td align="left">连接数组</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1133" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1133" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 join</td>
 <td align="left">通过指定分隔符，返回一个数组的字符串表达</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1134" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1134" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 push pop</td>
 <td align="left">分别在最后的位置插入数据和获取数据(获取后删除)</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1135" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1135" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 unshift shift</td>
 <td align="left">分别在最开始的位置插入数据和获取数据(获取后删除)</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1136" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1136" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 sort</td>
 <td align="left">对数组的内容进行排序</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1137" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1137" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 sort(comparator)</td>
 <td align="left">自定义排序算法</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step2962" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step2962" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left"><img
         class="lazyload"
-        src="/svg/loading.small.min.svg"
+        src="/svg/loading.min.svg"
+        data-src="https://how2j.cn/img/site/practise.png"
+        data-srcset="https://how2j.cn/img/site/practise.png, https://how2j.cn/img/site/practise.png 1.5x, https://how2j.cn/img/site/practise.png 2x"
         data-sizes="auto"
-        data-srcset="https://how2j.cn/img/site/practise.png,  1.5x,  2x"
-        data-src=""
-        alt="img"
+        alt="https://how2j.cn/img/site/practise.png"
         title="img" /></td>
 <td align="left">练习-排序</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step2894" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step2894" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left"><img
         class="lazyload"
-        src="/svg/loading.small.min.svg"
+        src="/svg/loading.min.svg"
+        data-src="https://how2j.cn/img/site/answer.png"
+        data-srcset="https://how2j.cn/img/site/answer.png, https://how2j.cn/img/site/answer.png 1.5x, https://how2j.cn/img/site/answer.png 2x"
         data-sizes="auto"
-        data-srcset="https://how2j.cn/img/site/answer.png,  1.5x,  2x"
-        data-src=""
-        alt="img"
+        alt="https://how2j.cn/img/site/answer.png"
         title="img" /></td>
 <td align="left">答案-排序</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step2113" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step2113" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 reverse</td>
 <td align="left">对数组的内容进行反转</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1138" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1138" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 slice</td>
 <td align="left">获取子数组</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1139" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-array/441.html#step1139" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 splice</td>
@@ -2403,32 +2321,27 @@ pop之后，x数组的值是:3,1,4</p>
 <tr>
 <td align="left">new Date</td>
 <td align="left">创建日期对象</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-date/440.html#step1150" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-date/440.html#step1150" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">getFullYear getMonth getDate</td>
 <td align="left">年/月/日</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-date/440.html#step1151" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-date/440.html#step1151" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">getHours getMinutes getSeconds getMilliseconds</td>
 <td align="left">时:分:秒:毫秒</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-date/440.html#step1152" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-date/440.html#step1152" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">getDay</td>
 <td align="left">一周的第几天</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-date/440.html#step1153" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-date/440.html#step1153" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">getTime</td>
 <td align="left">经历的毫秒数</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-date/440.html#step1154" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-date/440.html#step1154" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">setFullYear setMonth setDate setHours setMinutes setSeconds</td>
@@ -2500,32 +2413,27 @@ pop之后，x数组的值是:3,1,4</p>
 <tr>
 <td align="left">属性E PI</td>
 <td align="left">自然对数和圆周率</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-math/520.html#step1142" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-math/520.html#step1142" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 abs()</td>
 <td align="left">绝对值</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-math/520.html#step1143" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-math/520.html#step1143" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 min(1,100) max(1,100)</td>
 <td align="left">最小最大</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-math/520.html#step1144" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-math/520.html#step1144" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 pow(3,3) =9</td>
 <td align="left">求幂方法 pow 求一个数的n次方</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-math/520.html#step1145" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-math/520.html#step1145" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 round</td>
 <td align="left">四舍五入</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-math/520.html#step1147" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-math/520.html#step1147" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">方法 random</td>
@@ -2665,13 +2573,9 @@ pop之后，x数组的值是:3,1,4</p>
 <p>浏览器对象包括
 Window(窗口)
 <a href="https://how2j.cn/k/javascript/javascript-bom-navigator/453.html" target="_blank" rel="noopener noreffer">Navigator(浏览器)</a>
-
 <a href="https://how2j.cn/k/javascript/javascript-bom-screen/450.html" target="_blank" rel="noopener noreffer">Screen (客户端屏幕)</a>
-
 <a href="https://how2j.cn/k/javascript/javascript-bom-history/452.html" target="_blank" rel="noopener noreffer">History(访问历史)</a>
-
-<a href="https://how2j.cn/k/javascript/javascript-bom-location/451.html" target="_blank" rel="noopener noreffer">Location(浏览器地址)</a>
-</p>
+<a href="https://how2j.cn/k/javascript/javascript-bom-location/451.html" target="_blank" rel="noopener noreffer">Location(浏览器地址)</a></p>
 <p>本章节从 Window(窗口)开始讲起</p>
 <h3 id="获取文档显示区域的高度和宽度">获取文档显示区域的高度和宽度</h3>
 <p>一旦页面加载，就会自动创建window对象，所以无需手动创建window对象。
@@ -2970,14 +2874,12 @@ Window(窗口)
 <tr>
 <td align="left">alert</td>
 <td align="left">警告框</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-bom-popup/454.html#step1166" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-bom-popup/454.html#step1166" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">confirm</td>
 <td align="left">确认框</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-bom-popup/454.html#step1167" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-bom-popup/454.html#step1167" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">prompt</td>
@@ -3075,20 +2977,17 @@ confirm返回基本类型的Boolean true或者false</p>
 <tr>
 <td align="left">setTimeout</td>
 <td align="left">只执行一次</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-bom-timing/455.html#step1169" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-bom-timing/455.html#step1169" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">setInterval</td>
 <td align="left">不停地重复执行</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-bom-timing/455.html#step1170" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-bom-timing/455.html#step1170" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">clearInterval</td>
 <td align="left">终止重复执行</td>
-<td align="left"><a href="https://how2j.cn/k/javascript/javascript-bom-timing/455.html#step1171" target="_blank" rel="noopener noreffer">示例代码</a>
-</td>
+<td align="left"><a href="https://how2j.cn/k/javascript/javascript-bom-timing/455.html#step1171" target="_blank" rel="noopener noreffer">示例代码</a></td>
 </tr>
 <tr>
 <td align="left">document.write()</td>
@@ -3104,8 +3003,7 @@ confirm返回基本类型的Boolean true或者false</p>
 <strong>解释:</strong>
 document.getElementById 获取id=time的div元素
 .innerHTML 修改该元素的内容
-更多的关于如何获取元素，请参考 <a href="https://how2j.cn/k/dom/dom-fetch-node/458.html" target="_blank" rel="noopener noreffer">HTML DOM 获取元素</a>
-</p>
+更多的关于如何获取元素，请参考 <a href="https://how2j.cn/k/dom/dom-fetch-node/458.html" target="_blank" rel="noopener noreffer">HTML DOM 获取元素</a></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -3295,74 +3193,41 @@ var t = setInterval(printTime,1000);
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>本文于 2020-08-21 更新</span>
+                <span>更新于 2020-08-21</span>
             </div>
             <div class="post-info-license"></div>
         </div>
         <div class="post-info-line">
-            <div class="post-info-md"></div>
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/posts/javascript/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记" data-via="xxxx" data-hashtags="JS"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://yang419.com/posts/javascript/" data-hashtag="JS"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 人人" data-sharer="renren" data-url="https://yang419.com/posts/javascript/"><i class="fab fa-renren fa-fw"></i></a><a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记"><i class="loveit it-baidu-fill"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记"><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记" data-via="xxxx" data-hashtags="JS"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://yang419.com/posts/javascript/" data-hashtag="JS"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记" data-description=""><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/myspace.svg"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://yang419.com/posts/javascript/" data-title="JS 笔记"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/js">JS</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/js/">JS</a></section>
         <section>
-            <span><a href="javascript:window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>
     </div>
 
     <div class="post-nav"><a href="/posts/json/" class="prev" rel="prev" title="JSON 笔记"><i class="fas fa-angle-left fa-fw"></i>JSON 笔记</a>
             <a href="/posts/jquery/" class="next" rel="next" title="JQuery 笔记">JQuery 笔记<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
-<div class="comment"><div id="gitalk"></div><script>
-            document.addEventListener("DOMContentLoaded", function(event) {
-                var gitalk = new Gitalk({
-                    id: '2020-08-21 00:00:00 \x2b0000 UTC',
-                    title: 'JS 笔记',
-                    clientID: 'aaf5f9533adc0dca3acc',
-                    clientSecret: '2f6dfba3b1c4bd93872985c401b4e7f4fce5651b',
-                    repo: 'linon419.github.io',
-                    owner: 'Linon419',
-                    admin: ['Linon419'],
-                    body: decodeURI(location.href),
-                });
-                gitalk.render('gitalk');
-            });
-        </script>
-        <noscript>
-            Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by Gitalk.</a>
-        </noscript></div>
-    </article></div>
+<div id="comments"></div></article></div>
             </main><footer class="footer">
-    <div class="copyright"><div class="copyright-line">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer"><i class="far fa-heart fa-fw"></i> LoveIt</a>
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.68.3">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Yang</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
+    </footer></div>
 
-        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Yang</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
-    </div>
-</footer>
-</div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
-            <i class="fas fa-chevron-up fa-fw"></i>
-        </a><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.css"><link rel="stylesheet" href="/lib/iconfont/iconfont.min.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.min.js"></script><script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.2/dist/smooth-scroll.polyfills.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js"></script><script src="/js/theme.min.js"></script>
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-163376231-1', 'auto');
-	ga('set', 'anonymizeIp', true);
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-<div id="ex1" class="modal">
-        <div class="aa-input-container" id="aa-input-container">
-    <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Search for titles or URIs..." name="search" autocomplete="off" />
-    <svg class="aa-input-icon" viewBox="654 -372 1664 1664">
-        <path d="M1806,332c0-123.3-43.8-228.8-131.5-316.5C1586.8-72.2,1481.3-116,1358-116s-228.8,43.8-316.5,131.5  C953.8,103.2,910,208.7,910,332s43.8,228.8,131.5,316.5C1129.2,736.2,1234.7,780,1358,780s228.8-43.8,316.5-131.5  C1762.2,560.8,1806,455.3,1806,332z M2318,1164c0,34.7-12.7,64.7-38,90s-55.3,38-90,38c-36,0-66-12.7-90-38l-343-342  c-119.3,82.7-252.3,124-399,124c-95.3,0-186.5-18.5-273.5-55.5s-162-87-225-150s-113-138-150-225S654,427.3,654,332  s18.5-186.5,55.5-273.5s87-162,150-225s138-113,225-150S1262.7-372,1358-372s186.5,18.5,273.5,55.5s162,87,225,150s113,138,150,225  S2062,236.7,2062,332c0,146.7-41.3,279.7-124,399l343,343C2305.7,1098.7,2318,1128.7,2318,1164z" />
-    </svg>
-</div>
-        </div>
-    </body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/mhchem.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"G5ZHN05DPH","algoliaIndex":"Hugo","algoliaSearchKey":"179459d42cf71a1c7abbf4708e609149","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

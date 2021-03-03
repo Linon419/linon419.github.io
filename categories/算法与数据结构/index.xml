@@ -1,25 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>算法与数据结构 on Yang&#39;s Blog</title>
-    <link>https://yang419.com/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
-    <description>Recent content in 算法与数据结构 on Yang&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 26 Feb 2020 09:48:57 +0000</lastBuildDate>
-    
-	<atom:link href="https://yang419.com/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>算法和递归</title>
-      <link>https://yang419.com/posts/suan-fa-he-di-gui/</link>
-      <pubDate>Wed, 26 Feb 2020 09:48:57 +0000</pubDate>
-      
-      <guid>https://yang419.com/posts/suan-fa-he-di-gui/</guid>
-      <description>算法 冒泡排序（bubble） 冒泡排序(Bubble Sorting)的基本思想是:通过对待排序序列从前向后(从下标较小的元素开始),依次比较 相</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>算法与数据结构 - 分类 - Yang&#39;s Blog</title>
+        <link>https://yang419.com/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+        <description>算法与数据结构 - 分类 - Yang&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 26 Feb 2020 09:48:57 &#43;0000</lastBuildDate><atom:link href="https://yang419.com/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="self" type="application/rss+xml" /><item>
+    <title>算法和递归</title>
+    <link>https://yang419.com/posts/suan-fa-he-di-gui/</link>
+    <pubDate>Wed, 26 Feb 2020 09:48:57 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://yang419.com/posts/suan-fa-he-di-gui/</guid>
+    <description><![CDATA[算法 冒泡排序（bubble） 冒泡排序(Bubble Sorting)的基本思想是:通过对待排序序列从前向后(从下标较小的元素开始),依次比较 相]]></description>
+</item></channel>
 </rss>
