@@ -13,13 +13,6 @@
     <guid>https://yang419.com/posts/noteofjavascript/</guid>
     <description><![CDATA[第1章 JavaScript简介 JavaScript是一种专门为与网页交互而设计的脚本语言，由三个不同的部分组成 ECMAscript,由ECM]]></description>
 </item><item>
-    <title>JavaScript高级程序设计读书笔记</title>
-    <link>https://yang419.com/posts/noteofjs/</link>
-    <pubDate>Wed, 03 Mar 2021 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://yang419.com/posts/noteofjs/</guid>
-    <description><![CDATA[ijijbjbbj 第1章 JavaScript简介 JavaScript是一种专门为与网页交互而设计的脚本语言，由三个不同的部分组成 ECMAscript,由EC]]></description>
-</item><item>
     <title>CSS 笔记</title>
     <link>https://yang419.com/posts/css/</link>
     <pubDate>Fri, 21 Aug 2020 00:00:00 &#43;0000</pubDate>
@@ -75,5 +68,12 @@
     <author>作者</author>
     <guid>https://yang419.com/posts/java%E5%8F%8D%E5%B0%84%E7%AE%80%E5%8D%95%E6%A6%82%E5%BF%B5/</guid>
     <description><![CDATA[反射，就是通过Class文件对象，获取该文件中的成员变量，构造方法，成员方法 要想这样使用，先要得到Class文件对象 Class类： ​ 成员变量]]></description>
+</item><item>
+    <title> ! [rejected]        develop -&gt; develop (fetch first)解决办法</title>
+    <link>https://yang419.com/posts/rejected-develop-develop-fetch-first-%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
+    <pubDate>Wed, 08 Apr 2020 14:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://yang419.com/posts/rejected-develop-develop-fetch-first-%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
+    <description><![CDATA[1、git pull origin master --allow-unrelated-histories //把远程仓库和本地同步，消除差异 2、重新add和commit相应文件 3、git push origin develop 4、此时就能够上传成功了]]></description>
 </item></channel>
 </rss>

@@ -17,7 +17,7 @@
 <meta name="application-name" content="Yang&#39;s Blog">
 <meta name="apple-mobile-web-app-title" content="Yang&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://yang419.com/posts/noteofjavascript/" /><link rel="prev" href="https://yang419.com/posts/noteofjs/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://yang419.com/posts/noteofjavascript/" /><link rel="prev" href="https://yang419.com/posts/css/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -26,7 +26,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/yang419.com\/posts\/noteofjavascript\/"
-        },"genre": "posts","keywords": "JavaScript","wordcount":  7295 ,
+        },"genre": "posts","keywords": "JavaScript","wordcount":  7351 ,
         "url": "https:\/\/yang419.com\/posts\/noteofjavascript\/","datePublished": "2021-03-03T00:00:00+00:00","dateModified": "2021-03-03T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -105,7 +105,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">JavaScript高级程序设计读书笔记</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Yang</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%89%8D%E7%AB%AF/"><i class="far fa-folder fa-fw"></i>前端</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-03-03">2021-03-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 7295 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-03-03">2021-03-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 7351 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 15 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -117,7 +117,7 @@
     <li><a href="#第1章-javascript简介">第1章 JavaScript简介</a></li>
     <li><a href="#第2章-在html中使用javascript">第2章 在HTML中使用JavaScript</a>
       <ul>
-        <li><a href="#21-script元素">2.1 <script>元素</a></li>
+        <li><a href="#21-script元素">2.1 <code>&lt;script&gt;</code>元素</a></li>
       </ul>
     </li>
     <li><a href="#第3章-基本概念">第3章 基本概念</a>
@@ -171,11 +171,11 @@
 </li>
 </ul>
 <h2 id="第2章-在html中使用javascript">第2章 在HTML中使用JavaScript</h2>
-<h3 id="21-script元素">2.1 <script>元素</h3>
+<h3 id="21-script元素">2.1 <code>&lt;script&gt;</code>元素</h3>
 <p>向HTML中插入JavaScript的主要方法，用该标签</p>
 <ol>
-<li>所有的<script>标签会按照在页面的出现顺序执行。在不使用defer和async属性的情况下，只有在解析完<script>后才会执行后面代码</li>
-<li>浏览器会先解析不使用defer的代码，所以一般把<script>标签。放在主要内容最后,即</body>前</li>
+<li>所有的<code>&lt;script&gt;</code>标签会按照在页面的出现顺序执行。在不使用defer和async属性的情况下，只有在解析完<code>&lt;script&gt;</code>后才会执行后面代码</li>
+<li>浏览器会先解析不使用defer的代码，所以一般把<code>&lt;script&gt;</code>标签。放在主要内容最后,即</body>前</li>
 <li>使用defer属性可以让脚本在文档完全呈现之后在执行</li>
 <li>使用async可以表示当前脚本不必等待其他脚本</li>
 </ol>
@@ -1354,7 +1354,7 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/noteofjs/" class="prev" rel="prev" title="JavaScript高级程序设计读书笔记"><i class="fas fa-angle-left fa-fw"></i>JavaScript高级程序设计读书笔记</a></div>
+    <div class="post-nav"><a href="/posts/css/" class="prev" rel="prev" title="CSS 笔记"><i class="fas fa-angle-left fa-fw"></i>CSS 笔记</a></div>
 </div>
 <div id="comments"></div></article></div>
             </main><footer class="footer">
