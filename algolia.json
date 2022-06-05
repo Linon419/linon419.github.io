@@ -576,6 +576,7 @@
             "观点与感想"
         ],
         "lightgallery": true,
+        "hideInList": true,
         "math": {
             "enable": true
         }
